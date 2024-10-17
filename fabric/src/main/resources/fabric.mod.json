@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "souldercontent",
+  "version": "${version}",
+
+  "name": "SoulderContent",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "Mozilla Public License 2.0",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.soulderspace.souldercontent.fabric.SoulderContentFabric"
+    ]
+  },
+  "mixins": [
+    "souldercontent.mixins.json",
+    "souldercontent-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": ">=1.20.1"
+  }
+}
