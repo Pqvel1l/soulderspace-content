@@ -26,6 +26,10 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     public final Block PINK_GREEN_CRATE = crateBlock("pink_green_crate", false);
     public final Block PURPLE_LIGHT_PURPLE_CRATE = crateBlock("purple_light_purple_crate", false);
     public final Block RED_GOLDEN_CRATE = crateBlock("red_golden_crate", false);
+    public final Block ZOMBIEFIED_PIGLIN_PLUSHIE = crateBlock("zombified_piglin_plushie", true);
+    public final Block POKEDOLL_ZUBAT = crateBlock("pokedoll_zubat", true);
+    public final Block POKEDOLL_MEWTWO_GILDED = crateBlock("pokedoll_mewtwo_gilded", true);
+    public final Block POKEDOLL_MELOETTA = crateBlock("pokedoll_meloetta", true);
 
     public static SoulderBlocks getInstance() {
         return INSTANCE;

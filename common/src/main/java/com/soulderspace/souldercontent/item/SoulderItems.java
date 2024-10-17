@@ -13,7 +13,7 @@ import net.minecraft.registry.RegistryKeys;
 public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<Registry<Item>>, Item> {
     private static final SoulderItems INSTANCE = new SoulderItems();
 
-    public final Item FALLEN_DEFENDER = item("fdefender_sword", new SwordItem(ToolMaterials.DIAMOND, 1000, 100, new Item.Settings().maxCount(1)));
+    public final Item FALLEN_DEFENDER = item("fdefender_sword", new SwordItem(ToolMaterials.NETHERITE, 20, 1, new Item.Settings().maxCount(1).maxDamage(5234)));
 //    public final Item POKE_COIN_BRONZE = genericItem("poke_coin_bronze");
 //    public final Item POKE_COIN_SILVER = genericItem("poke_coin_silver");
 //    public final Item POKE_COIN_GOLD = genericItem("poke_coin_gold")
@@ -106,6 +106,10 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item PINK_GREEN_CRATE = blockItem("pink_green_crate", SoulderBlocks.getInstance().PINK_GREEN_CRATE);
     public final Item PURPLE_LIGHT_PURPLE_CRATE = blockItem("purple_light_purple_crate", SoulderBlocks.getInstance().PURPLE_LIGHT_PURPLE_CRATE);
     public final Item RED_GOLDEN_CRATE = blockItem("red_golden_crate", SoulderBlocks.getInstance().RED_GOLDEN_CRATE);
+    public final Item ZOMBIEFIED_PIGLIN_PLUSHIE = blockItem("zombified_piglin_plushie", SoulderBlocks.getInstance().ZOMBIEFIED_PIGLIN_PLUSHIE);
+    public final Item POKEDOLL_ZUBAT = blockItem("pokedoll_zubat", SoulderBlocks.getInstance().POKEDOLL_ZUBAT);
+    public final Item POKEDOLL_MEWTWO_GILDED = blockItem("pokedoll_mewtwo_gilded", SoulderBlocks.getInstance().POKEDOLL_MEWTWO_GILDED);
+    public final Item POKEDOLL_MELOETTA = blockItem("pokedoll_meloetta", SoulderBlocks.getInstance().POKEDOLL_MELOETTA);
 
     public static SoulderItems getInstance() {
         return INSTANCE;

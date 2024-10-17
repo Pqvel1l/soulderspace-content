@@ -29,6 +29,10 @@
   "block.souldercontent.pink_green_crate": "Pink Crate",
   "block.souldercontent.purple_light_purple_crate": "Purple Crate",
   "block.souldercontent.red_golden_crate": "Red Crate",
+  "block.souldercontent.zombified_piglin_plushie": "Zombified Piglin Plushie",
+  "block.souldercontent.pokedoll_zubat": "Pokedoll Zubat",
+  "block.souldercontent.pokedoll_mewtwo_gilded": "Pokedoll Mewtwo Gilded",
+  "block.souldercontent.pokedoll_meloetta": "Pokedoll Meloetta",
 
   "item.souldercontent.normal_key": "Normal Key",
   "item.souldercontent.medium_key": "Medium Key",

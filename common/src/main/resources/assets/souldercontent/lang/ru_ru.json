@@ -30,6 +30,11 @@
   "block.souldercontent.pink_green_crate": "Розовый ящик",
   "block.souldercontent.purple_light_purple_crate": "Фиолетовый ящик",
   "block.souldercontent.red_golden_crate": "Красный ящик",
+  "block.souldercontent.zombified_piglin_plushie": "Зомбифицированный плюшевый пиглин",
+  "block.souldercontent.pokedoll_zubat": "Игрушечный Зубат",
+  "block.souldercontent.pokedoll_mewtwo_gilded": "Игрушечный позолоченный Мьюту",
+  "block.souldercontent.pokedoll_meloetta": "Игрушечная Мелоетта",
+
 
   "item.souldercontent.normal_key": "Обычный ключ",
   "item.souldercontent.medium_key": "Средний ключ",

@@ -25,6 +25,7 @@ public class CrateBlock extends Block {
         this.shape = small ? CHEST_SHAPE : CRATE_SHAPE;
     }
 
+
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(Properties.HORIZONTAL_FACING);
@@ -34,6 +35,7 @@ public class CrateBlock extends Block {
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
         return getDefaultState().with(Properties.HORIZONTAL_FACING, ctx.getHorizontalPlayerFacing().getOpposite());
+
     }
 
     @Override

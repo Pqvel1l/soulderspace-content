@@ -26,7 +26,7 @@ public class SoulderContentFabric implements ModInitializer {
                 new Identifier(SoulderContent.ID, "soulder_content"),
                 FabricItemGroup.builder()
                         .displayName(Text.translatable("itemGroup.souldercontent"))
-                        .icon(items.POKE_COIN_GOLD::getDefaultStack)
+                        .icon(items.ENVELOPE::getDefaultStack)
                         .entries((displayContext, entries) -> items.all().forEach(item -> entries.add(item.getDefaultStack())))
                         .build()
         );
