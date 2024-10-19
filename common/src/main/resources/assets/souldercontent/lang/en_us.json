@@ -1,5 +1,9 @@
 {
   "itemGroup.souldercontent": "Soulder Space",
+  "itemGroup.souldercontent.items": "§2[§3SpaceContent§2] §eItems",
+  "itemGroup.souldercontent.blocks_crates": "§2[§3SpaceContent§2] §9BlocksNCrates",
+  "itemGroup.souldercontent.plushies": "§2[§3SpaceContent§2] §cPlushies",
+
 
   "item.souldercontent.fdefender_sword": "Fallen Defender",
   "item.souldercontent.poke_coin_bronze": "Bronze Coin",
@@ -24,6 +28,7 @@
   "block.souldercontent.medium_chest": "Medium Chest",
   "block.souldercontent.premium_chest": "Premium Chest",
   "block.souldercontent.black_silver_crate": "Black Crate",
+  "block.souldercontent.halloween_crate": "Halloween Crate",
   "block.souldercontent.blue_light_blue_crate": "Blue Crate",
   "block.souldercontent.brown_silver_crate": "Brown Crate",
   "block.souldercontent.pink_green_crate": "Pink Crate",
@@ -33,6 +38,9 @@
   "block.souldercontent.pokedoll_zubat": "Pokedoll Zubat",
   "block.souldercontent.pokedoll_mewtwo_gilded": "Pokedoll Mewtwo Gilded",
   "block.souldercontent.pokedoll_meloetta": "Pokedoll Meloetta",
+  "block.souldercontent.pokedoll_zubat_shiny": "Pokedoll Shiny Zubat",
+  "block.souldercontent.pokedoll_mewtwo_gilded_shiny": "Pokedoll Shiny Mewtwo Gilded",
+  "block.souldercontent.pokedoll_meloetta_shiny": "Pokedoll Shiny Meloetta",
 
   "block.souldercontent.spiderweb_0": "Spiderweb (v.1)",
   "block.souldercontent.spiderweb_1": "Spiderweb (v.2)",
@@ -46,17 +54,17 @@
   "block.souldercontent.skeleton_3": "Skeleton (v.4)",
   "block.souldercontent.skeleton_4": "Skeleton (v.5)",
 
-  "block.souldercontent.scarecrow_top_0": "Top scarecrow part (v.1)",
-  "block.souldercontent.scarecrow_top_1": "Top scarecrow part (v.2)",
-  "block.souldercontent.scarecrow_top_2": "Top scarecrow part (v.3)",
-  "block.souldercontent.scarecrow_top_3": "Top scarecrow part (v.4)",
-  "block.souldercontent.scarecrow_top_4": "Top scarecrow part (v.5)",
+  "block.souldercontent.scarecrow_0_top": "Top scarecrow part (v.1)",
+  "block.souldercontent.scarecrow_1_top": "Top scarecrow part (v.2)",
+  "block.souldercontent.scarecrow_2_top": "Top scarecrow part (v.3)",
+  "block.souldercontent.scarecrow_3_top": "Top scarecrow part (v.4)",
+  "block.souldercontent.scarecrow_4_top": "Top scarecrow part (v.5)",
 
-  "block.souldercontent.scarecrow_bottom_0": "Bottom scarecrow part (v.1)",
-  "block.souldercontent.scarecrow_bottom_1": "Bottom scarecrow part (v.2)",
-  "block.souldercontent.scarecrow_bottom_2": "Bottom scarecrow part (v.3)",
-  "block.souldercontent.scarecrow_bottom_3": "Bottom scarecrow part (v.4)",
-  "block.souldercontent.scarecrow_bottom_4": "Bottom scarecrow part (v.5)",
+  "block.souldercontent.scarecrow_0_bottom": "Bottom scarecrow part (v.1)",
+  "block.souldercontent.scarecrow_1_bottom": "Bottom scarecrow part (v.2)",
+  "block.souldercontent.scarecrow_2_bottom": "Bottom scarecrow part (v.3)",
+  "block.souldercontent.scarecrow_3_bottom": "Bottom scarecrow part (v.4)",
+  "block.souldercontent.scarecrow_4_bottom": "Bottom scarecrow part (v.5)",
 
   "block.souldercontent.autumn_leaves_carpet": "Autumn leaves",
 
@@ -66,6 +74,7 @@
   "item.souldercontent.medium_key": "Medium Key",
   "item.souldercontent.premium_key": "Premium Key",
   "item.souldercontent.black_silver_key": "Black Key",
+  "item.souldercontent.halloween_key": "Halloween Key",
   "item.souldercontent.blue_light_blue_key": "Blue Key",
   "item.souldercontent.brown_silver_key": "Brown Key",
   "item.souldercontent.pink_green_key": "Pink Key",
@@ -106,6 +115,11 @@
   "item.souldercontent.pokehats.pkmnserenahatnh": "Serena's Hat (No Hair)",
   "item.souldercontent.pokehats.pkmnvictorhat": "Victor's Hat",
   "item.souldercontent.pokehats.pkmnvictorhatnh": "Victor's Hat (No Hair)",
+  "item.souldercontent.pokehats.pkmngoomyhat": "Goomy Hat",
+  "item.souldercontent.pokehats.pkmnhoppiphat": "Hoppip Hat",
+  "item.souldercontent.pokehats.pkmnsylveonears": "Sylveonears Hat",
+  "item.souldercontent.pokehats.pkmnumbreoncap": "Umbreone Hat",
+  "item.souldercontent.pokehats.pkmnpsycap": "Psycap Hat",
 
   "item.souldercontent.aegis_badge": "Aegis Badge",
   "item.souldercontent.aphid_badge": "Aphid Badge",

@@ -97,6 +97,7 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item NORMAL_KEY = genericItem("normal_key");
     public final Item MEDIUM_KEY = genericItem("medium_key");
     public final Item PREMIUM_KEY = genericItem("premium_key");
+    public final Item HALLOWEEN_KEY = genericItem("halloween_key");
     public final Item BLACK_SILVER_KEY = genericItem("black_silver_key");
     public final Item BLUE_LIGHT_BLUE_KEY = genericItem("blue_light_blue_key");
     public final Item BROWN_SILVER_KEY = genericItem("brown_silver_key");
@@ -108,6 +109,9 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item MEDIUM_CHEST = blockItem("medium_chest", SoulderBlocks.getInstance().MEDIUM_CHEST);
     public final Item PREMIUM_CHEST = blockItem("premium_chest", SoulderBlocks.getInstance().PREMIUM_CHEST);
     public final Item BLACK_SILVER_CRATE = blockItem("black_silver_crate", SoulderBlocks.getInstance().BLACK_SILVER_CRATE);
+
+    public final Item HALLOWEEN_CRATE = blockItem("halloween_crate", SoulderBlocks.getInstance().HALLOWEEN_CRATE);
+
     public final Item BLUE_LIGHT_BLUE_CRATE = blockItem("blue_light_blue_crate", SoulderBlocks.getInstance().BLUE_LIGHT_BLUE_CRATE);
     public final Item BROWN_SILVER_CRATE = blockItem("brown_silver_crate", SoulderBlocks.getInstance().BROWN_SILVER_CRATE);
     public final Item PINK_GREEN_CRATE = blockItem("pink_green_crate", SoulderBlocks.getInstance().PINK_GREEN_CRATE);

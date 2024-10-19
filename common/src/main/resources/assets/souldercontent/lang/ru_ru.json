@@ -47,17 +47,17 @@
   "block.souldercontent.skeleton_3": "Скелетик (v.4)",
   "block.souldercontent.skeleton_4": "Скелетик (v.5)",
 
-  "block.souldercontent.scarecrow_top_0": "Верхняя часть пугала (v.1)",
-  "block.souldercontent.scarecrow_top_1": "Верхняя часть пугала (v.2)",
-  "block.souldercontent.scarecrow_top_2": "Верхняя часть пугала (v.3)",
-  "block.souldercontent.scarecrow_top_3": "Верхняя часть пугала (v.4)",
-  "block.souldercontent.scarecrow_top_4": "Верхняя часть пугала (v.5)",
+  "block.souldercontent.scarecrow_0_top": "Верхняя часть пугала (v.1)",
+  "block.souldercontent.scarecrow_1_top": "Верхняя часть пугала (v.2)",
+  "block.souldercontent.scarecrow_2_top": "Верхняя часть пугала (v.3)",
+  "block.souldercontent.scarecrow_3_top": "Верхняя часть пугала (v.4)",
+  "block.souldercontent.scarecrow_4_top": "Верхняя часть пугала (v.5)",
 
-  "block.souldercontent.scarecrow_bottom_0": "Нижняя часть пугала (v.1)",
-  "block.souldercontent.scarecrow_bottom_1": "Нижняя часть пугала (v.2)",
-  "block.souldercontent.scarecrow_bottom_2": "Нижняя часть пугала (v.3)",
-  "block.souldercontent.scarecrow_bottom_3": "Нижняя часть пугала (v.4)",
-  "block.souldercontent.scarecrow_bottom_4": "Нижняя часть пугала (v.5)",
+  "block.souldercontent.scarecrow_0_bottom": "Нижняя часть пугала (v.1)",
+  "block.souldercontent.scarecrow_1_bottom": "Нижняя часть пугала (v.2)",
+  "block.souldercontent.scarecrow_2_bottom": "Нижняя часть пугала (v.3)",
+  "block.souldercontent.scarecrow_3_bottom": "Нижняя часть пугала (v.4)",
+  "block.souldercontent.scarecrow_4_bottom": "Нижняя часть пугала (v.5)",
 
   "block.souldercontent.autumn_leaves_carpet": "Осенняя листва (слой)",
 
@@ -126,5 +126,18 @@
   "item.souldercontent.phantom_badge": "Phantom Badge",
   "item.souldercontent.quarry_badge": "Quarry Badge",
   "item.souldercontent.sand_badge": "Sand Badge",
-  "item.souldercontent.tesla_badge": "Tesla Badge"
+  "item.souldercontent.tesla_badge": "Tesla Badge",
+  "block.souldercontent.halloween_crate": "Хеллоуинский ящик",
+  "block.souldercontent.pokedoll_zubat_shiny": "Игрушечный шайни Зубат",
+  "block.souldercontent.pokedoll_mewtwo_gilded_shiny": "Игрушечный позолоченный шайни Мьюту",
+  "block.souldercontent.pokedoll_meloetta_shiny": "Игрушечная шайни Мелоетта",
+  "item.souldercontent.halloween_key": "Хеллоуинский ключ",
+  "item.souldercontent.pokehats.pkmngoomyhat": "Шляпа Гуми",
+  "item.souldercontent.pokehats.pkmnhoppiphat": "Шляпа Хоппипа",
+  "item.souldercontent.pokehats.pkmnsylveonears": "Шляпа Сильвеоны",
+  "item.souldercontent.pokehats.pkmnumbreoncap": "Шляпа Амбреона",
+  "item.souldercontent.pokehats.pkmnpsycap": "Шляпа Псикапа",
+  "itemGroup.souldercontent.items": "§2[§3SpaceContent§2] §eПредметы",
+  "itemGroup.souldercontent.blocks_crates": "§2[§3SpaceContent§2] §9Блоки и сундуки",
+  "itemGroup.souldercontent.plushies": "§2[§3SpaceContent§2] §cИгрушки"
 }

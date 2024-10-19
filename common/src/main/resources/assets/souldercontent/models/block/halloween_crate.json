@@ -3,8 +3,8 @@
 	"render_type": "minecraft:cutout",
 	"texture_size": [56, 56],
 	"textures": {
-		"0": "souldercontent:block/red_golden_crate",
-		"particle": "souldercontent:block/red_golden_crate"
+		"0": "souldercontent:block/halloween_crate",
+		"particle": "souldercontent:block/halloween_crate"
 	},
 	"elements": [
 		{
@@ -404,7 +404,7 @@
 			"faces": {
 				"north": {"uv": [5.71429, 11.14286, 6.28571, 11.85714], "texture": "#0"},
 				"east": {"uv": [6.28571, 12.57143, 6.57143, 13.28571], "texture": "#0"},
-				"south": {"uv": [6.28571, 11.14286, 6.85714, 11.42857], "texture": "#0"},
+				"south": {"uv": [6.28571, 11.14286, 6.85714, 11.57143], "texture": "#0"},
 				"west": {"uv": [6.57143, 12.57143, 6.85714, 13.28571], "texture": "#0"},
 				"up": {"uv": [9.71429, 13.14286, 9.14286, 12.85714], "texture": "#0"},
 				"down": {"uv": [13.42857, 9.14286, 12.85714, 9.42857], "texture": "#0"}

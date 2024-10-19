@@ -18,14 +18,17 @@ public abstract class RegistryProvider<R extends Registry<T>, K extends Registry
 
     public final <E extends T> E add(String name , E entry) {
         Identifier id = new Identifier(SoulderContent.ID, name);
+//        System.out.println("Добавление предмета/блока с ID: " + id);  // Логирование
         queue.put(id, entry);
         return entry;
     }
 
     public final void register(BiConsumer<Identifier, T> consumer) {
-        queue.forEach(consumer);
+        queue.forEach((id, entry) -> {
+//            System.out.println("Регистрация предмета/блока с ID: " + id);  // Логирование
+            consumer.accept(id, entry);
+        });
     }
-
     public final List<T> all() {
         return queue.values().stream().toList();
     }

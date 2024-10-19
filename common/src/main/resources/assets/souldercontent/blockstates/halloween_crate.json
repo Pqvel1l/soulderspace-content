@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "souldercontent:block/halloween_crate",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "souldercontent:block/halloween_crate"
+    },
+    "facing=south": {
+      "model": "souldercontent:block/halloween_crate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "souldercontent:block/halloween_crate",
+      "y": 270
+    }
+  }
+}

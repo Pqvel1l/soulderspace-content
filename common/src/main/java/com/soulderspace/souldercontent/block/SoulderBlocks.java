@@ -21,6 +21,7 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     public final Block BLACK_SILVER_CRATE = crateBlock("black_silver_crate", false);
     public final Block BLUE_LIGHT_BLUE_CRATE = crateBlock("blue_light_blue_crate", false);
     public final Block BROWN_SILVER_CRATE = crateBlock("brown_silver_crate", false);
+    public final Block HALLOWEEN_CRATE = crateBlock("halloween_crate", false);
     public final Block PINK_GREEN_CRATE = crateBlock("pink_green_crate", false);
     public final Block PURPLE_LIGHT_PURPLE_CRATE = crateBlock("purple_light_purple_crate", false);
     public final Block RED_GOLDEN_CRATE = crateBlock("red_golden_crate", false);
