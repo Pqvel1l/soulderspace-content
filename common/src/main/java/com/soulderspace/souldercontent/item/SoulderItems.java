@@ -107,10 +107,16 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item PINK_GREEN_CRATE = blockItem("pink_green_crate", SoulderBlocks.getInstance().PINK_GREEN_CRATE);
     public final Item PURPLE_LIGHT_PURPLE_CRATE = blockItem("purple_light_purple_crate", SoulderBlocks.getInstance().PURPLE_LIGHT_PURPLE_CRATE);
     public final Item RED_GOLDEN_CRATE = blockItem("red_golden_crate", SoulderBlocks.getInstance().RED_GOLDEN_CRATE);
+
     public final Item ZOMBIEFIED_PIGLIN_PLUSHIE = blockItem("zombified_piglin_plushie", SoulderBlocks.getInstance().ZOMBIEFIED_PIGLIN_PLUSHIE);
     public final Item POKEDOLL_ZUBAT = blockItem("pokedoll_zubat", SoulderBlocks.getInstance().POKEDOLL_ZUBAT);
     public final Item POKEDOLL_MEWTWO_GILDED = blockItem("pokedoll_mewtwo_gilded", SoulderBlocks.getInstance().POKEDOLL_MEWTWO_GILDED);
     public final Item POKEDOLL_MELOETTA = blockItem("pokedoll_meloetta", SoulderBlocks.getInstance().POKEDOLL_MELOETTA);
+
+    public final Item POKEDOLL_ZUBAT_SHINY = blockItem("pokedoll_zubat_shiny", SoulderBlocks.getInstance().POKEDOLL_ZUBAT_SHINY);
+    public final Item POKEDOLL_MEWTWO_GILDED_SHINY = blockItem("pokedoll_mewtwo_gilded_shiny", SoulderBlocks.getInstance().POKEDOLL_MEWTWO_GILDED_SHINY);
+    public final Item POKEDOLL_MELOETTA_SHINY = blockItem("pokedoll_meloetta_shiny", SoulderBlocks.getInstance().POKEDOLL_MELOETTA_SHINY);
+
     public final Item AUTUMN_LEAVES_CARPET_0 = blockItem("autumn_leaves_carpet_0", SoulderBlocks.getInstance().AUTUMN_LEAVES_CARPET);
 
     public final Item SPIDERWEB_0 = blockItem("spiderweb_0", SoulderBlocks.getInstance().SPIDERWEB_0);

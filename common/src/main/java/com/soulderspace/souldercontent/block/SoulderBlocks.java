@@ -28,6 +28,9 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     public final Block POKEDOLL_ZUBAT = crateBlock("pokedoll_zubat", true);
     public final Block POKEDOLL_MEWTWO_GILDED = crateBlock("pokedoll_mewtwo_gilded", true);
     public final Block POKEDOLL_MELOETTA = crateBlock("pokedoll_meloetta", true);
+    public final Block POKEDOLL_ZUBAT_SHINY = crateBlock("pokedoll_zubat_shiny", true);
+    public final Block POKEDOLL_MEWTWO_GILDED_SHINY = crateBlock("pokedoll_mewtwo_gilded_shiny", true);
+    public final Block POKEDOLL_MELOETTA_SHINY = crateBlock("pokedoll_meloetta_shiny", true);
 
     public final Block AUTUMN_LEAVES_CARPET = allTypesLeaves("autumn_leaves_carpet");
     public final Block SPIDERWEB_0 = skeletonBlock("spiderweb_0");
