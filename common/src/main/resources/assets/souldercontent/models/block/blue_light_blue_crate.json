@@ -1,5 +1,6 @@
 {
 	"credit": "Made with Blockbench",
+	"render_type": "minecraft:cutout",
 	"texture_size": [56, 56],
 	"textures": {
 		"0": "souldercontent:block/blue_light_blue_crate",

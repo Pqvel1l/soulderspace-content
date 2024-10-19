@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "souldercontent:block/scarecrow_4_bottom",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "souldercontent:block/scarecrow_4_bottom"
+    },
+    "facing=south": {
+      "model": "souldercontent:block/scarecrow_4_bottom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "souldercontent:block/scarecrow_4_bottom",
+      "y": 270
+    }
+  }
+}

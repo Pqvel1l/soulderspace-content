@@ -34,6 +34,34 @@
   "block.souldercontent.pokedoll_mewtwo_gilded": "Pokedoll Mewtwo Gilded",
   "block.souldercontent.pokedoll_meloetta": "Pokedoll Meloetta",
 
+  "block.souldercontent.spiderweb_0": "Spiderweb (v.1)",
+  "block.souldercontent.spiderweb_1": "Spiderweb (v.2)",
+  "block.souldercontent.spiderweb_2": "Spiderweb (v.3)",
+  "block.souldercontent.spiderweb_3": "Spiderweb (v.4)",
+  "block.souldercontent.spiderweb_4": "Spiderweb (v.5)",
+
+  "block.souldercontent.skeleton_0": "Skeleton (v.1)",
+  "block.souldercontent.skeleton_1": "Skeleton (v.2)",
+  "block.souldercontent.skeleton_2": "Skeleton (v.3)",
+  "block.souldercontent.skeleton_3": "Skeleton (v.4)",
+  "block.souldercontent.skeleton_4": "Skeleton (v.5)",
+
+  "block.souldercontent.scarecrow_top_0": "Top scarecrow part (v.1)",
+  "block.souldercontent.scarecrow_top_1": "Top scarecrow part (v.2)",
+  "block.souldercontent.scarecrow_top_2": "Top scarecrow part (v.3)",
+  "block.souldercontent.scarecrow_top_3": "Top scarecrow part (v.4)",
+  "block.souldercontent.scarecrow_top_4": "Top scarecrow part (v.5)",
+
+  "block.souldercontent.scarecrow_bottom_0": "Bottom scarecrow part (v.1)",
+  "block.souldercontent.scarecrow_bottom_1": "Bottom scarecrow part (v.2)",
+  "block.souldercontent.scarecrow_bottom_2": "Bottom scarecrow part (v.3)",
+  "block.souldercontent.scarecrow_bottom_3": "Bottom scarecrow part (v.4)",
+  "block.souldercontent.scarecrow_bottom_4": "Bottom scarecrow part (v.5)",
+
+  "block.souldercontent.autumn_leaves_carpet": "Autumn leaves",
+
+  "item.souldercontent.wilt_sword": "Wilt sword",
+
   "item.souldercontent.normal_key": "Normal Key",
   "item.souldercontent.medium_key": "Medium Key",
   "item.souldercontent.premium_key": "Premium Key",

@@ -13,7 +13,8 @@ import net.minecraft.registry.RegistryKeys;
 public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<Registry<Item>>, Item> {
     private static final SoulderItems INSTANCE = new SoulderItems();
 
-    public final Item FALLEN_DEFENDER = item("fdefender_sword", new SwordItem(ToolMaterials.NETHERITE, 20, 1, new Item.Settings().maxCount(1).maxDamage(5234)));
+    public final Item FALLEN_DEFENDER = item("fdefender_sword", new SwordItem(ToolMaterials.NETHERITE, 11, 1.6f, new Item.Settings().maxCount(1).maxDamage(16)));
+    public final Item WILT_SWORD = item("wilt_sword", new SwordItem(ToolMaterials.NETHERITE, 9, 1.2f, new Item.Settings().maxCount(1).maxDamage(31)));
 //    public final Item POKE_COIN_BRONZE = genericItem("poke_coin_bronze");
 //    public final Item POKE_COIN_SILVER = genericItem("poke_coin_silver");
 //    public final Item POKE_COIN_GOLD = genericItem("poke_coin_gold")
@@ -110,6 +111,34 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item POKEDOLL_ZUBAT = blockItem("pokedoll_zubat", SoulderBlocks.getInstance().POKEDOLL_ZUBAT);
     public final Item POKEDOLL_MEWTWO_GILDED = blockItem("pokedoll_mewtwo_gilded", SoulderBlocks.getInstance().POKEDOLL_MEWTWO_GILDED);
     public final Item POKEDOLL_MELOETTA = blockItem("pokedoll_meloetta", SoulderBlocks.getInstance().POKEDOLL_MELOETTA);
+    public final Item AUTUMN_LEAVES_CARPET_0 = blockItem("autumn_leaves_carpet_0", SoulderBlocks.getInstance().AUTUMN_LEAVES_CARPET);
+
+    public final Item SPIDERWEB_0 = blockItem("spiderweb_0", SoulderBlocks.getInstance().SPIDERWEB_0);
+    public final Item SPIDERWEB_1 = blockItem("spiderweb_1", SoulderBlocks.getInstance().SPIDERWEB_1);
+    public final Item SPIDERWEB_2 = blockItem("spiderweb_2", SoulderBlocks.getInstance().SPIDERWEB_2);
+    public final Item SPIDERWEB_3 = blockItem("spiderweb_3", SoulderBlocks.getInstance().SPIDERWEB_3);
+    public final Item SPIDERWEB_4 = blockItem("spiderweb_4", SoulderBlocks.getInstance().SPIDERWEB_4);
+
+    public final Item SKELETON_0 = blockItem("skeleton_0", SoulderBlocks.getInstance().SKELETON_0);
+    public final Item SKELETON_1 = blockItem("skeleton_1", SoulderBlocks.getInstance().SKELETON_1);
+    public final Item SKELETON_2 = blockItem("skeleton_2", SoulderBlocks.getInstance().SKELETON_2);
+    public final Item SKELETON_3 = blockItem("skeleton_3", SoulderBlocks.getInstance().SKELETON_3);
+    public final Item SKELETON_4 = blockItem("skeleton_4", SoulderBlocks.getInstance().SKELETON_4);
+
+    public final Item SCARECROW_0_BOTTOM = blockItem("scarecrow_0_bottom", SoulderBlocks.getInstance().SCARECROW_0_BOTTOM);
+    public final Item SCARECROW_0_TOP = blockItem("scarecrow_0_top", SoulderBlocks.getInstance().SCARECROW_0_TOP);
+
+    public final Item SCARECROW_1_BOTTOM = blockItem("scarecrow_1_bottom", SoulderBlocks.getInstance().SCARECROW_1_BOTTOM);
+    public final Item SCARECROW_1_TOP = blockItem("scarecrow_1_top", SoulderBlocks.getInstance().SCARECROW_1_TOP);
+
+    public final Item SCARECROW_2_BOTTOM = blockItem("scarecrow_2_bottom", SoulderBlocks.getInstance().SCARECROW_2_BOTTOM);
+    public final Item SCARECROW_2_TOP = blockItem("scarecrow_2_top", SoulderBlocks.getInstance().SCARECROW_2_TOP);
+
+    public final Item SCARECROW_3_BOTTOM = blockItem("scarecrow_3_bottom", SoulderBlocks.getInstance().SCARECROW_3_BOTTOM);
+    public final Item SCARECROW_3_TOP = blockItem("scarecrow_3_top", SoulderBlocks.getInstance().SCARECROW_3_TOP);
+
+    public final Item SCARECROW_4_BOTTOM = blockItem("scarecrow_4_bottom", SoulderBlocks.getInstance().SCARECROW_4_BOTTOM);
+    public final Item SCARECROW_4_TOP = blockItem("scarecrow_4_top", SoulderBlocks.getInstance().SCARECROW_4_TOP);
 
     public static SoulderItems getInstance() {
         return INSTANCE;

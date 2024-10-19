@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "souldercontent:block/autumn_leaves_carpet_0",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "souldercontent:block/autumn_leaves_carpet_0"
+    },
+    "facing=south": {
+      "model": "souldercontent:block/autumn_leaves_carpet_0",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "souldercontent:block/autumn_leaves_carpet_0",
+      "y": 270
+    }
+  }
+}

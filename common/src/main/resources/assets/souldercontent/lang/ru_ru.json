@@ -35,6 +35,33 @@
   "block.souldercontent.pokedoll_mewtwo_gilded": "Игрушечный позолоченный Мьюту",
   "block.souldercontent.pokedoll_meloetta": "Игрушечная Мелоетта",
 
+  "block.souldercontent.spiderweb_0": "Паучья паутинка (v.1)",
+  "block.souldercontent.spiderweb_1": "Паучья паутинка (v.2)",
+  "block.souldercontent.spiderweb_2": "Паучья паутинка (v.3)",
+  "block.souldercontent.spiderweb_3": "Паучья паутинка (v.4)",
+  "block.souldercontent.spiderweb_4": "Паучья паутинка (v.5)",
+
+  "block.souldercontent.skeleton_0": "Скелетик (v.1)",
+  "block.souldercontent.skeleton_1": "Скелетик (v.2)",
+  "block.souldercontent.skeleton_2": "Скелетик (v.3)",
+  "block.souldercontent.skeleton_3": "Скелетик (v.4)",
+  "block.souldercontent.skeleton_4": "Скелетик (v.5)",
+
+  "block.souldercontent.scarecrow_top_0": "Верхняя часть пугала (v.1)",
+  "block.souldercontent.scarecrow_top_1": "Верхняя часть пугала (v.2)",
+  "block.souldercontent.scarecrow_top_2": "Верхняя часть пугала (v.3)",
+  "block.souldercontent.scarecrow_top_3": "Верхняя часть пугала (v.4)",
+  "block.souldercontent.scarecrow_top_4": "Верхняя часть пугала (v.5)",
+
+  "block.souldercontent.scarecrow_bottom_0": "Нижняя часть пугала (v.1)",
+  "block.souldercontent.scarecrow_bottom_1": "Нижняя часть пугала (v.2)",
+  "block.souldercontent.scarecrow_bottom_2": "Нижняя часть пугала (v.3)",
+  "block.souldercontent.scarecrow_bottom_3": "Нижняя часть пугала (v.4)",
+  "block.souldercontent.scarecrow_bottom_4": "Нижняя часть пугала (v.5)",
+
+  "block.souldercontent.autumn_leaves_carpet": "Осенняя листва (слой)",
+
+  "item.souldercontent.wilt_sword": "Терновый клинок",
 
   "item.souldercontent.normal_key": "Обычный ключ",
   "item.souldercontent.medium_key": "Средний ключ",
