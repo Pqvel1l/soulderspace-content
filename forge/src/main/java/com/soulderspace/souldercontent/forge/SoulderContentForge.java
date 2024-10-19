@@ -205,7 +205,7 @@ public class SoulderContentForge {
                 Registries.ITEM_GROUP.getKey(), helper -> helper.register(new Identifier(SoulderContent.ID, "soulder_content_side_tab"),
                         ItemGroup.builder()
                                 .displayName(Text.translatable("itemGroup.souldercontent.plushies"))  // Название новой вкладки
-                                .icon(items.PSYCAP::getDefaultStack)  // Иконка
+                                .icon(items.ZOMBIEFIED_PIGLIN_PLUSHIE::getDefaultStack)  // Иконка
                                 .entries((displayContext, entries) -> {
                                     // Добавляем предметы по их ID
                                     Identifier[] itemIDs = new Identifier[] {
