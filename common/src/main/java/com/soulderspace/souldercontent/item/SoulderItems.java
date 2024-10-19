@@ -67,6 +67,12 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item SERENA_HAT_NH = hat("serenahatnh");
     public final Item VICTOR_HAT = hat("victorhat");
     public final Item VICTOR_HAT_NH = hat("victorhatnh");
+    public final Item GOOMYHAT= hat("goomyhat");
+    public final Item HOPPIPHAT = hat("hoppiphat");
+    public final Item PSYCAP = hat("psycap");
+    public final Item SYLVEONEARS = hat("sylveonears");
+    public final Item UMBREONCAP = hat("umbreoncap");
+
 
     public final Item AEGIS_BADGE = genericItem("aegis_badge");
     public final Item APHID_BADGE = genericItem("aphid_badge");
