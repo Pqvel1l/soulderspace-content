@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "souldercontent:block/laying_hay_bale",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "souldercontent:block/laying_hay_bale",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "souldercontent:block/laying_hay_bale",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "souldercontent:block/laying_hay_bale",
+      "y": 0
+    }
+  }
+}

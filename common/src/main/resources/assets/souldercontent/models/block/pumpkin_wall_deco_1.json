@@ -1,0 +1,7 @@
+{
+    "parent": "souldercontent:block/wall_deco",
+    "textures": {
+        "0": "souldercontent:block/pumpkin_wall_deco_1",
+        "particle": "souldercontent:block/pumpkin_wall_deco_1"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "souldercontent:block/pumpkin_wheelbarrow",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "souldercontent:block/pumpkin_wheelbarrow",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "souldercontent:block/pumpkin_wheelbarrow",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "souldercontent:block/pumpkin_wheelbarrow",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "souldercontent:block/ghost_doormat",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "souldercontent:block/ghost_doormat",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "souldercontent:block/ghost_doormat",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "souldercontent:block/ghost_doormat",
+      "y": 270
+    }
+  }
+}

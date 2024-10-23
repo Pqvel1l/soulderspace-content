@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "souldercontent:block/sitting_skeleton",
+      "y": 90
+    },
+    "facing=east": {
+      "model": "souldercontent:block/sitting_skeleton",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "souldercontent:block/sitting_skeleton",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "souldercontent:block/sitting_skeleton",
+      "y": 0
+    }
+  }
+}

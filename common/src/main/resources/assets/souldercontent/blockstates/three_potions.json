@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "souldercontent:block/three_potions",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "souldercontent:block/three_potions",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "souldercontent:block/three_potions",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "souldercontent:block/three_potions",
+      "y": 270
+    }
+  }
+}

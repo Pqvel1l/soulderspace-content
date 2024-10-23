@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "souldercontent:block/flat_dirt_gravestone",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "souldercontent:block/flat_dirt_gravestone",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "souldercontent:block/flat_dirt_gravestone",
+      "y": 0
+    },
+    "facing=west": {
+      "model": "souldercontent:block/flat_dirt_gravestone",
+      "y": 90
+    }
+  }
+}

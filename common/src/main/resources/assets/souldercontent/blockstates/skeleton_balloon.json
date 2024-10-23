@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "souldercontent:block/skeleton_balloon",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "souldercontent:block/skeleton_balloon",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "souldercontent:block/skeleton_balloon",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "souldercontent:block/skeleton_balloon",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "souldercontent:block/lit_shocked_pumpkin",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "souldercontent:block/lit_shocked_pumpkin",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "souldercontent:block/lit_shocked_pumpkin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "souldercontent:block/lit_shocked_pumpkin",
+      "y": 270
+    }
+  }
+}

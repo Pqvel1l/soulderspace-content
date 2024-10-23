@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "souldercontent:block/pair_of_pumpkins",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "souldercontent:block/pair_of_pumpkins",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "souldercontent:block/pair_of_pumpkins",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "souldercontent:block/pair_of_pumpkins",
+      "y": 270
+    }
+  }
+}

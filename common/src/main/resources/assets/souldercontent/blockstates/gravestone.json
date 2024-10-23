@@ -1,11 +1,12 @@
 {
   "variants": {
+    "facing=north": {
+      "model": "souldercontent:block/gravestone",
+      "y": 0
+    },
     "facing=east": {
       "model": "souldercontent:block/gravestone",
       "y": 90
-    },
-    "facing=north": {
-      "model": "souldercontent:block/gravestone"
     },
     "facing=south": {
       "model": "souldercontent:block/gravestone",

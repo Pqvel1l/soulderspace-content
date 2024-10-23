@@ -1,0 +1,8 @@
+{
+    "parent": "souldercontent:block/balloon",
+    "textures": {
+        "0": "souldercontent:block/skeleton_balloon",
+        "1": "souldercontent:block/skeleton_balloon_top",
+        "particle": "souldercontent:block/skeleton_balloon"
+    }
+}

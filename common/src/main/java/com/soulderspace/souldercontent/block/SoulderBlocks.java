@@ -25,13 +25,38 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     public final Block PINK_GREEN_CRATE = crateBlock("pink_green_crate", false);
     public final Block PURPLE_LIGHT_PURPLE_CRATE = crateBlock("purple_light_purple_crate", false);
     public final Block RED_GOLDEN_CRATE = crateBlock("red_golden_crate", false);
-    public final Block ZOMBIEFIED_PIGLIN_PLUSHIE = crateBlock("zombified_piglin_plushie", true);
-    public final Block POKEDOLL_ZUBAT = crateBlock("pokedoll_zubat", true);
-    public final Block POKEDOLL_MEWTWO_GILDED = crateBlock("pokedoll_mewtwo_gilded", true);
-    public final Block POKEDOLL_MELOETTA = crateBlock("pokedoll_meloetta", true);
-    public final Block POKEDOLL_ZUBAT_SHINY = crateBlock("pokedoll_zubat_shiny", true);
-    public final Block POKEDOLL_MEWTWO_GILDED_SHINY = crateBlock("pokedoll_mewtwo_gilded_shiny", true);
-    public final Block POKEDOLL_MELOETTA_SHINY = crateBlock("pokedoll_meloetta_shiny", true);
+    public final Block ZOMBIEFIED_PIGLIN_PLUSHIE = pokedoll_BLOCK("zombified_piglin_plushie");
+    public final Block POKEDOLL_ZUBAT = pokedoll_BLOCK("pokedoll_zubat");
+    public final Block POKEDOLL_MEWTWO_GILDED = pokedoll_BLOCK("pokedoll_mewtwo_gilded");
+    public final Block POKEDOLL_MELOETTA = pokedoll_BLOCK("pokedoll_meloetta");
+    public final Block POKEDOLL_ZUBAT_SHINY = pokedoll_BLOCK("pokedoll_zubat_shiny");
+    public final Block POKEDOLL_MEWTWO_GILDED_SHINY = pokedoll_BLOCK("pokedoll_mewtwo_gilded_shiny");
+    public final Block POKEDOLL_MELOETTA_SHINY = pokedoll_BLOCK("pokedoll_meloetta_shiny");
+
+    public final Block POKEDOLL_BIG_GIRATINA = pokedoll_BLOCK("pokedoll_big_giratina");
+    public final Block POKEDOLL_CUBONE = pokedoll_BLOCK("pokedoll_cubone");
+    public final Block POKEDOLL_ESPEON = pokedoll_BLOCK("pokedoll_espeon");
+    public final Block POKEDOLL_GENGAR = pokedoll_BLOCK("pokedoll_gengar");
+    public final Block POKEDOLL_GOLBAT = pokedoll_BLOCK("pokedoll_golbat");
+    public final Block POKEDOLL_HOUNDOOM = pokedoll_BLOCK("pokedoll_houndoom");
+    public final Block POKEDOLL_HOUNDOUR = pokedoll_BLOCK("pokedoll_houndour");
+    public final Block POKEDOLL_LITWICK = pokedoll_BLOCK("pokedoll_litwick");
+    public final Block POKEDOLL_MAROWAK = pokedoll_BLOCK("pokedoll_marowak");
+    public final Block POKEDOLL_UMBREON = pokedoll_BLOCK("pokedoll_umbreon");
+    public final Block POKEDOLL_ZORUA = pokedoll_BLOCK("pokedoll_zorua");
+
+    public final Block POKEDOLL_BIG_GIRATINA_SHINY = pokedoll_BLOCK("pokedoll_big_giratina_shiny");
+    public final Block POKEDOLL_CUBONE_SHINY = pokedoll_BLOCK("pokedoll_cubone_shiny");
+    public final Block POKEDOLL_ESPEON_SHINY = pokedoll_BLOCK("pokedoll_espeon_shiny");
+    public final Block POKEDOLL_GENGAR_SHINY = pokedoll_BLOCK("pokedoll_gengar_shiny");
+    public final Block POKEDOLL_GOLBAT_SHINY = pokedoll_BLOCK("pokedoll_golbat_shiny");
+    public final Block POKEDOLL_HOUNDOOM_SHINY = pokedoll_BLOCK("pokedoll_houndoom_shiny");
+    public final Block POKEDOLL_HOUNDOUR_SHINY = pokedoll_BLOCK("pokedoll_houndour_shiny");
+    public final Block POKEDOLL_LITWICK_SHINY = pokedoll_BLOCK("pokedoll_litwick_shiny");
+    public final Block POKEDOLL_MAROWAK_SHINY = pokedoll_BLOCK("pokedoll_marowak_shiny");
+    public final Block POKEDOLL_UMBREON_SHINY = pokedoll_BLOCK("pokedoll_umbreon_shiny");
+    public final Block POKEDOLL_ZORUA_SHINY = pokedoll_BLOCK("pokedoll_zorua_shiny");
+
 
     public final Block AUTUMN_LEAVES_CARPET = allTypesLeaves("autumn_leaves_carpet");
     public final Block SPIDERWEB_0 = skeletonBlock("spiderweb_0");
@@ -40,11 +65,49 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     public final Block SPIDERWEB_3 = skeletonBlock("spiderweb_3");
     public final Block SPIDERWEB_4 = skeletonBlock("spiderweb_4");
 
+    public final Block CARVED_EVIL_PUMPKIN = crateBlock("carved_evil_pumpkin",false);
+    public final Block CARVED_FRIENDLY_PUMPKIN = crateBlock("carved_friendly_pumpkin",false);
+    public final Block CARVED_SCREAMING_PUMPKIN = crateBlock("carved_screaming_pumpkin",false);
+    public final Block CARVED_SHOCKED_PUMPKIN = crateBlock("carved_shocked_pumpkin",false);
+    public final Block CARVED_SMILE_PUMPKIN = crateBlock("carved_smile_pumpkin",false);
+    public final Block FLAT_DIRT_GRAVESTONE = gravehorizontal("flat_dirt_gravestone");
+    public final Block FLAT_GRAVESTONE = gravehorizontal("flat_gravestone");
+    public final Block GRAVESTONE = gravevertical("gravestone");
+    public final Block SLANTED_GRAVESTONE = gravesmall("slanted_gravestone");
+    public final Block SQUARE_GRAVESTONE = gravevertical("square_gravestone");
+    public final Block SMALL_GRAVESTONE = gravesmall("small_gravestone");
+    public final Block HAY_WHEELBARROW = crateBlock("hay_wheelbarrow",true);
+    public final Block PUMPKIN_WHEELBARROW = crateBlock("pumpkin_wheelbarrow",true);
+    public final Block LARGE_PUMPKIN = crateBlock("large_pumpkin",true);
+    public final Block SMALL_PUMPKIN = crateBlock("small_pumpkin",true);
+    public final Block MEDIUM_PUMPKIN = crateBlock("medium_pumpkin",true);
+    public final Block LIT_EVIL_PUMPKIN = pumpkinLight("lit_evil_pumpkin");
+    public final Block LIT_FRIENDLY_PUMPKIN = pumpkinLight("lit_friendly_pumpkin");
+    public final Block LIT_SCREAMING_PUMPKIN = pumpkinLight("lit_screaming_pumpkin");
+    public final Block LIT_SHOCKED_PUMPKIN = pumpkinLight("lit_shocked_pumpkin");
+    public final Block LIT_SMILE_PUMPKIN = pumpkinLight("lit_smile_pumpkin");
+    public final Block PAIR_OF_PUMPKINS = crateBlock("pair_of_pumpkins",true);
+    public final Block PUMPKIN_BALLOON = ballooned("pumpkin_balloon");
+    public final Block PUMPKIN_WALL_DECO_1 = walldecoBlock("pumpkin_wall_deco_1");
+    public final Block PUMPKIN_WALL_DECO_2 = walldecoBlock("pumpkin_wall_deco_2");
+    public final Block SCARECROW = scareCrow("scarecrow");
+    public final Block SITTING_SKELETON = skeletonBlock("sitting_skeleton");
+    public final Block SKELETON_BALLOON = ballooned("skeleton_balloon");
+    public final Block GHOST_BALLOON = ballooned("ghost_balloon");
+    public final Block GHOST = ballooned("ghost");
+    public final Block THREE_POTIONS = crateBlock("three_potions",true);
+    public final Block THREE_PUMPKINS = crateBlock("three_pumpkins",true);
+    public final Block WITCH_CAULDRON = crateBlock("witch_cauldron",false);
+
+
+
+
     public final Block SKELETON_0 = skeletonBlock("skeleton_0");
     public final Block SKELETON_1 = skeletonBlock("skeleton_1");
     public final Block SKELETON_2 = skeletonBlock("skeleton_2");
     public final Block SKELETON_3 = skeletonBlock("skeleton_3");
     public final Block SKELETON_4 = skeletonBlock("skeleton_4");
+
     public final Block SCARECROW_0_TOP = scareCrow("scarecrow_0_top");
     public final Block SCARECROW_0_BOTTOM = scareCrow("scarecrow_0_bottom");
     public final Block SCARECROW_1_BOTTOM = scareCrow("scarecrow_1_bottom");
@@ -66,6 +129,13 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     }
     private Block allTypesLeaves(String name){return block(name, new AutumnLeavesCarpetBlock());}
     private Block skullBlock(String name){return block(name, new LeavesBlock());}
+    private Block pumpkinLight(String name){return block(name, new pumpkins());}
+    private Block pokedoll_BLOCK(String name){return block(name, new Pokedoll());}
+    private Block walldecoBlock(String name){return block(name, new wall_deco());}
+    private Block gravehorizontal(String name){return block(name, new gravestone_1());}
+    private Block gravevertical(String name){return block(name, new gravestone_vertical());}
+    private Block gravesmall(String name){return block(name, new gravestone_small());}
+    private Block ballooned(String name){return block(name, new balloons());}
     private Block scareCrow(String name){return block(name, new ScarecroweBox());}
     private Block skeletonBlock(String name){return block(name, new SkeletonsBox());}
     private Block block(String name, Block block) {

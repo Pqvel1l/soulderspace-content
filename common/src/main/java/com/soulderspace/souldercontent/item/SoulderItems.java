@@ -9,6 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.util.Rarity;
 
 public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<Registry<Item>>, Item> {
     private static final SoulderItems INSTANCE = new SoulderItems();
@@ -72,6 +73,7 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item PSYCAP = hat("psycap");
     public final Item SYLVEONEARS = hat("sylveonears");
     public final Item UMBREONCAP = hat("umbreoncap");
+    public final Item WITCH_HAT = hat("witch_hat");
 
 
     public final Item AEGIS_BADGE = genericItem("aegis_badge");
@@ -127,7 +129,68 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item POKEDOLL_MEWTWO_GILDED_SHINY = blockItem("pokedoll_mewtwo_gilded_shiny", SoulderBlocks.getInstance().POKEDOLL_MEWTWO_GILDED_SHINY);
     public final Item POKEDOLL_MELOETTA_SHINY = blockItem("pokedoll_meloetta_shiny", SoulderBlocks.getInstance().POKEDOLL_MELOETTA_SHINY);
 
+    public final Item POKEDOLL_BIG_GIRATINA = blockItem("pokedoll_big_giratina", SoulderBlocks.getInstance().POKEDOLL_BIG_GIRATINA);
+    public final Item POKEDOLL_CUBONE = blockItem("pokedoll_cubone", SoulderBlocks.getInstance().POKEDOLL_CUBONE);
+    public final Item POKEDOLL_ESPEON = blockItem("pokedoll_espeon", SoulderBlocks.getInstance().POKEDOLL_ESPEON);
+    public final Item POKEDOLL_GENGAR = blockItem("pokedoll_gengar", SoulderBlocks.getInstance().POKEDOLL_GENGAR);
+    public final Item POKEDOLL_GOLBAT = blockItem("pokedoll_golbat", SoulderBlocks.getInstance().POKEDOLL_GOLBAT);
+    public final Item POKEDOLL_HOUNDOOM = blockItem("pokedoll_houndoom", SoulderBlocks.getInstance().POKEDOLL_HOUNDOOM);
+    public final Item POKEDOLL_HOUNDOUR = blockItem("pokedoll_houndour", SoulderBlocks.getInstance().POKEDOLL_HOUNDOUR);
+    public final Item POKEDOLL_LITWICK = blockItem("pokedoll_litwick", SoulderBlocks.getInstance().POKEDOLL_LITWICK);
+    public final Item POKEDOLL_MAROWAK = blockItem("pokedoll_marowak", SoulderBlocks.getInstance().POKEDOLL_MAROWAK);
+    public final Item POKEDOLL_UMBREON = blockItem("pokedoll_umbreon", SoulderBlocks.getInstance().POKEDOLL_UMBREON);
+    public final Item POKEDOLL_ZORUA = blockItem("pokedoll_zorua", SoulderBlocks.getInstance().POKEDOLL_ZORUA);
+
+    public final Item POKEDOLL_BIG_GIRATINA_SHINY = blockItem("pokedoll_big_giratina_shiny", SoulderBlocks.getInstance().POKEDOLL_BIG_GIRATINA_SHINY);
+    public final Item POKEDOLL_CUBONE_SHINY = blockItem("pokedoll_cubone_shiny", SoulderBlocks.getInstance().POKEDOLL_CUBONE_SHINY);
+    public final Item POKEDOLL_ESPEON_SHINY = blockItem("pokedoll_espeon_shiny", SoulderBlocks.getInstance().POKEDOLL_ESPEON_SHINY);
+    public final Item POKEDOLL_GENGAR_SHINY = blockItem("pokedoll_gengar_shiny", SoulderBlocks.getInstance().POKEDOLL_GENGAR_SHINY);
+    public final Item POKEDOLL_GOLBAT_SHINY = blockItem("pokedoll_golbat_shiny", SoulderBlocks.getInstance().POKEDOLL_GOLBAT_SHINY);
+    public final Item POKEDOLL_HOUNDOOM_SHINY = blockItem("pokedoll_houndoom_shiny", SoulderBlocks.getInstance().POKEDOLL_HOUNDOOM_SHINY);
+    public final Item POKEDOLL_HOUNDOUR_SHINY = blockItem("pokedoll_houndour_shiny", SoulderBlocks.getInstance().POKEDOLL_HOUNDOUR_SHINY);
+    public final Item POKEDOLL_LITWICK_SHINY = blockItem("pokedoll_litwick_shiny", SoulderBlocks.getInstance().POKEDOLL_LITWICK_SHINY);
+    public final Item POKEDOLL_MAROWAK_SHINY = blockItem("pokedoll_marowak_shiny", SoulderBlocks.getInstance().POKEDOLL_MAROWAK_SHINY);
+    public final Item POKEDOLL_UMBREON_SHINY = blockItem("pokedoll_umbreon_shiny", SoulderBlocks.getInstance().POKEDOLL_UMBREON_SHINY);
+    public final Item POKEDOLL_ZORUA_SHINY = blockItem("pokedoll_zorua_shiny", SoulderBlocks.getInstance().POKEDOLL_ZORUA_SHINY);
+
+
+    public final Item CARVED_EVIL_PUMPKIN = blockItem("carved_evil_pumpkin", SoulderBlocks.getInstance().CARVED_EVIL_PUMPKIN);
+    public final Item CARVED_FRIENDLY_PUMPKIN = blockItem("carved_friendly_pumpkin", SoulderBlocks.getInstance().CARVED_FRIENDLY_PUMPKIN);
+    public final Item CARVED_SCREAMING_PUMPKIN = blockItem("carved_screaming_pumpkin", SoulderBlocks.getInstance().CARVED_SCREAMING_PUMPKIN);
+    public final Item CARVED_SHOCKED_PUMPKIN = blockItem("carved_shocked_pumpkin", SoulderBlocks.getInstance().CARVED_SHOCKED_PUMPKIN);
+    public final Item CARVED_SMILE_PUMPKIN = blockItem("carved_smile_pumpkin", SoulderBlocks.getInstance().CARVED_SMILE_PUMPKIN);
+    public final Item FLAT_DIRT_GRAVESTONE = blockItem("flat_dirt_gravestone", SoulderBlocks.getInstance().FLAT_DIRT_GRAVESTONE);
+    public final Item FLAT_GRAVESTONE = blockItem("flat_gravestone", SoulderBlocks.getInstance().FLAT_GRAVESTONE);
+    public final Item GRAVESTONE = blockItem("gravestone", SoulderBlocks.getInstance().GRAVESTONE);
+    public final Item SLANTED_GRAVESTONE = blockItem("slanted_gravestone", SoulderBlocks.getInstance().SLANTED_GRAVESTONE);
+    public final Item SQUARE_GRAVESTONE = blockItem("square_gravestone", SoulderBlocks.getInstance().SQUARE_GRAVESTONE);
+    public final Item SMALL_GRAVESTONE = blockItem("small_gravestone", SoulderBlocks.getInstance().SMALL_GRAVESTONE);
+    public final Item HAY_WHEELBARROW = blockItem("hay_wheelbarrow", SoulderBlocks.getInstance().HAY_WHEELBARROW);
+    public final Item PUMPKIN_WHEELBARROW = blockItem("pumpkin_wheelbarrow", SoulderBlocks.getInstance().PUMPKIN_WHEELBARROW);
+    public final Item LARGE_PUMPKIN = blockItem("large_pumpkin", SoulderBlocks.getInstance().LARGE_PUMPKIN);
+    public final Item SMALL_PUMPKIN = blockItem("small_pumpkin", SoulderBlocks.getInstance().SMALL_PUMPKIN);
+    public final Item MEDIUM_PUMPKIN = blockItem("medium_pumpkin", SoulderBlocks.getInstance().MEDIUM_PUMPKIN);
+    public final Item LIT_EVIL_PUMPKIN = blockItem("lit_evil_pumpkin", SoulderBlocks.getInstance().LIT_EVIL_PUMPKIN);
+    public final Item LIT_FRIENDLY_PUMPKIN = blockItem("lit_friendly_pumpkin", SoulderBlocks.getInstance().LIT_FRIENDLY_PUMPKIN);
+    public final Item LIT_SCREAMING_PUMPKIN = blockItem("lit_screaming_pumpkin", SoulderBlocks.getInstance().LIT_SCREAMING_PUMPKIN);
+    public final Item LIT_SHOCKED_PUMPKIN = blockItem("lit_shocked_pumpkin", SoulderBlocks.getInstance().LIT_SHOCKED_PUMPKIN);
+    public final Item LIT_SMILE_PUMPKIN = blockItem("lit_smile_pumpkin", SoulderBlocks.getInstance().LIT_SMILE_PUMPKIN);
+    public final Item PAIR_OF_PUMPKINS = blockItem("pair_of_pumpkins", SoulderBlocks.getInstance().PAIR_OF_PUMPKINS);
+    public final Item PUMPKIN_BALLOON = blockItem("pumpkin_balloon", SoulderBlocks.getInstance().PUMPKIN_BALLOON);
+    public final Item PUMPKIN_WALL_DECO_1 = blockItem("pumpkin_wall_deco_1", SoulderBlocks.getInstance().PUMPKIN_WALL_DECO_1);
+    public final Item PUMPKIN_WALL_DECO_2 = blockItem("pumpkin_wall_deco_2", SoulderBlocks.getInstance().PUMPKIN_WALL_DECO_2);
+    public final Item SCARECROW = blockItem("scarecrow", SoulderBlocks.getInstance().SCARECROW);
+    public final Item SITTING_SKELETON = blockItem("sitting_skeleton", SoulderBlocks.getInstance().SITTING_SKELETON);
+    public final Item SKELETON_BALLOON = blockItem("skeleton_balloon", SoulderBlocks.getInstance().SKELETON_BALLOON);
+    public final Item THREE_POTIONS = blockItem("three_potions", SoulderBlocks.getInstance().THREE_POTIONS);
+    public final Item THREE_PUMPKINS = blockItem("three_pumpkins", SoulderBlocks.getInstance().THREE_PUMPKINS);
+    public final Item GHOST_BALLOON = blockItem("ghost_balloon", SoulderBlocks.getInstance().GHOST_BALLOON);
+    public final Item GHOST = blockItem("ghost", SoulderBlocks.getInstance().GHOST);
+    public final Item WITCH_CAULDRON = blockItem("witch_cauldron", SoulderBlocks.getInstance().WITCH_CAULDRON);
+
+
     public final Item AUTUMN_LEAVES_CARPET_0 = blockItem("autumn_leaves_carpet_0", SoulderBlocks.getInstance().AUTUMN_LEAVES_CARPET);
+
 
     public final Item SPIDERWEB_0 = blockItem("spiderweb_0", SoulderBlocks.getInstance().SPIDERWEB_0);
     public final Item SPIDERWEB_1 = blockItem("spiderweb_1", SoulderBlocks.getInstance().SPIDERWEB_1);
@@ -163,7 +226,9 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     private SoulderItems() {}
 
     private Item hat(String name) {
-        return item( "pokehats/pkmn" + name, new PokeHatItem(new Item.Settings().maxCount(1)));
+        return item( "pokehats/" + name, new PokeHatItem(new Item.Settings()
+                .maxCount(1)
+        ));
     }
 
     private Item blockItem(String name, Block block) {
