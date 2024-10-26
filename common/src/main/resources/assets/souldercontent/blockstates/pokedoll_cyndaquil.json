@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_cyndaquil",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_cyndaquil"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_cyndaquil",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_cyndaquil",
+            "y": 270
+        }
+    }
+}

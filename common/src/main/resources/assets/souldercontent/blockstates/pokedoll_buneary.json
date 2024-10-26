@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_buneary",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_buneary"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_buneary",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_buneary",
+            "y": 270
+        }
+    }
+}

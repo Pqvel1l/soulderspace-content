@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_garbodor",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_garbodor"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_garbodor",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_garbodor",
+            "y": 270
+        }
+    }
+}

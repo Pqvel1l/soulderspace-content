@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_chikorita",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_chikorita"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_chikorita",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_chikorita",
+            "y": 270
+        }
+    }
+}

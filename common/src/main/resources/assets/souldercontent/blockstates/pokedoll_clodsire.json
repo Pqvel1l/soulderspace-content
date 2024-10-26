@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_clodsire",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_clodsire"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_clodsire",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_clodsire",
+            "y": 270
+        }
+    }
+}

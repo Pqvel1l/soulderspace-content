@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_wynaut",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_wynaut"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_wynaut",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_wynaut",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_iron_bundle",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_iron_bundle"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_iron_bundle",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_iron_bundle",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_pikachu",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_pikachu"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_pikachu",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_pikachu",
+            "y": 270
+        }
+    }
+}

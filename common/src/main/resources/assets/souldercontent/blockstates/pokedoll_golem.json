@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_golem",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_golem"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_golem",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_golem",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_whismur",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_whismur"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_whismur",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_whismur",
+            "y": 270
+        }
+    }
+}

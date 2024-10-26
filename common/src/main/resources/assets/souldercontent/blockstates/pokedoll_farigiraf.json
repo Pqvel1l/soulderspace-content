@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_farigiraf",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_farigiraf"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_farigiraf",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_farigiraf",
+            "y": 270
+        }
+    }
+}

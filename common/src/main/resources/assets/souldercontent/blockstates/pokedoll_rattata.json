@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_rattata",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_rattata"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_rattata",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_rattata",
+            "y": 270
+        }
+    }
+}

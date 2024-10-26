@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_togepi",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_togepi"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_togepi",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_togepi",
+            "y": 270
+        }
+    }
+}

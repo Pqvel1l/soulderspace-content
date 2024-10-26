@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_shroodle",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_shroodle"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_shroodle",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_shroodle",
+            "y": 270
+        }
+    }
+}

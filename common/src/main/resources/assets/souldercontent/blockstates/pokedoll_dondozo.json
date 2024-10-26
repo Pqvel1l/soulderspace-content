@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_dondozo",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_dondozo"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_dondozo",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_dondozo",
+            "y": 270
+        }
+    }
+}

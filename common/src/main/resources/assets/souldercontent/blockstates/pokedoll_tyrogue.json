@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_tyrogue",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_tyrogue"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_tyrogue",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_tyrogue",
+            "y": 270
+        }
+    }
+}

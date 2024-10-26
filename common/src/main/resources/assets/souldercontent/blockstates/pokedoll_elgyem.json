@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_elgyem",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_elgyem"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_elgyem",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_elgyem",
+            "y": 270
+        }
+    }
+}

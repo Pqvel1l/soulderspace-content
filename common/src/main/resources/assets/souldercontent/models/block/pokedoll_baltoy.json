@@ -1,0 +1,735 @@
+{
+    "credit": "Made by Nog for Mythical Network",
+    "texture_size": [
+        32,
+        32
+    ],
+    "textures": {
+        "0": "souldercontent:block/pokedoll_baltoy",
+        "particle": "souldercontent:block/pokedoll_baltoy"
+    },
+    "elements": [
+        {
+            "name": "torso",
+            "from": [
+                5.5,
+                2,
+                6.25
+            ],
+            "to": [
+                10.5,
+                9,
+                10.25
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    8,
+                    4.0045,
+                    7.85355
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        3,
+                        6,
+                        5.5,
+                        9.5
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        5.5,
+                        6.5,
+                        7.5,
+                        10
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        6,
+                        3,
+                        8.5,
+                        6.5
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        7.5,
+                        6.5,
+                        9.5,
+                        10
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        11,
+                        5,
+                        8.5,
+                        3
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        2.5,
+                        9,
+                        0,
+                        11
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "name": "torso",
+            "from": [
+                7,
+                0,
+                7.25
+            ],
+            "to": [
+                9,
+                2,
+                9.25
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    8,
+                    4.0045,
+                    7.85355
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        8.5,
+                        5,
+                        9.5,
+                        6
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        5.5,
+                        10,
+                        6.5,
+                        11
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        6.5,
+                        10,
+                        7.5,
+                        11
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        7.5,
+                        10,
+                        8.5,
+                        11
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        11,
+                        8.5,
+                        10,
+                        7.5
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        9.5,
+                        10,
+                        8.5,
+                        11
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "name": "torso",
+            "from": [
+                11.15458,
+                2.61315,
+                7.5
+            ],
+            "to": [
+                12.15458,
+                7.61315,
+                9.5
+            ],
+            "rotation": {
+                "angle": 45,
+                "axis": "z",
+                "origin": [
+                    11.02958,
+                    5.11315,
+                    8.5
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        9.5,
+                        5,
+                        10,
+                        7.5
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        9,
+                        0,
+                        10,
+                        2.5
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        9.5,
+                        7.5,
+                        10,
+                        10
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        2.5,
+                        9.5,
+                        3.5,
+                        12
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        1,
+                        12,
+                        0.5,
+                        11
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        1.5,
+                        11,
+                        1,
+                        12
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "name": "torso",
+            "from": [
+                3.84542,
+                2.61315,
+                7.5
+            ],
+            "to": [
+                4.84542,
+                7.61315,
+                9.5
+            ],
+            "rotation": {
+                "angle": -45,
+                "axis": "z",
+                "origin": [
+                    4.97042,
+                    5.11315,
+                    8.5
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        10,
+                        0,
+                        10.5,
+                        2.5
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        3.5,
+                        9.5,
+                        4.5,
+                        12
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        10,
+                        5,
+                        10.5,
+                        7.5
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        4.5,
+                        9.5,
+                        5.5,
+                        12
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        2,
+                        12,
+                        1.5,
+                        11
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        2.5,
+                        11,
+                        2,
+                        12
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "name": "head",
+            "from": [
+                7,
+                13.1,
+                6.35
+            ],
+            "to": [
+                9,
+                15.1,
+                8.35
+            ],
+            "rotation": {
+                "angle": -22.5,
+                "axis": "x",
+                "origin": [
+                    8,
+                    9.25,
+                    7.25
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        10.5,
+                        0,
+                        11.5,
+                        1
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        10.5,
+                        1,
+                        11.5,
+                        2
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        10.5,
+                        2,
+                        11.5,
+                        3
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        10.5,
+                        5,
+                        11.5,
+                        6
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        11.5,
+                        7,
+                        10.5,
+                        6
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        11.5,
+                        9.5,
+                        10.5,
+                        10.5
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "name": "head",
+            "from": [
+                7.5,
+                15.1,
+                6.85
+            ],
+            "to": [
+                8.5,
+                16.1,
+                7.85
+            ],
+            "rotation": {
+                "angle": -22.5,
+                "axis": "x",
+                "origin": [
+                    8,
+                    9.25,
+                    7.25
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        5.5,
+                        6,
+                        6,
+                        6.5
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        2.5,
+                        9,
+                        3,
+                        9.5
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        10,
+                        2.5,
+                        10.5,
+                        3
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        10,
+                        9.5,
+                        10.5,
+                        10
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        11,
+                        7.5,
+                        10.5,
+                        7
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        11.5,
+                        3,
+                        11,
+                        3.5
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "name": "head",
+            "from": [
+                5,
+                7.1,
+                4.35
+            ],
+            "to": [
+                11,
+                13.1,
+                10.35
+            ],
+            "rotation": {
+                "angle": -22.5,
+                "axis": "x",
+                "origin": [
+                    8,
+                    9.25,
+                    7.25
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        0,
+                        0,
+                        3,
+                        3
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        0,
+                        3,
+                        3,
+                        6
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        3,
+                        0,
+                        6,
+                        3
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        3,
+                        3,
+                        6,
+                        6
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        3,
+                        9,
+                        0,
+                        6
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        9,
+                        0,
+                        6,
+                        3
+                    ],
+                    "texture": "#0"
+                }
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                24,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                0.75,
+                -0.5
+            ],
+            "scale": [
+                0.6,
+                0.6,
+                0.6
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                24,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                0.75,
+                -0.5
+            ],
+            "scale": [
+                0.6,
+                0.6,
+                0.6
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                109,
+                5
+            ],
+            "translation": [
+                2.75,
+                6.5,
+                0
+            ],
+            "scale": [
+                0.83,
+                0.83,
+                0.83
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                109,
+                5
+            ],
+            "translation": [
+                2.75,
+                6.5,
+                0
+            ],
+            "scale": [
+                0.83,
+                0.83,
+                0.83
+            ]
+        },
+        "ground": {
+            "translation": [
+                0,
+                3.5,
+                0
+            ],
+            "scale": [
+                0.65,
+                0.65,
+                0.65
+            ]
+        },
+        "gui": {
+            "rotation": [
+                25,
+                151,
+                0
+            ],
+            "translation": [
+                0,
+                1.25,
+                0
+            ],
+            "scale": [
+                0.72,
+                0.72,
+                0.72
+            ]
+        },
+        "head": {
+            "translation": [
+                0,
+                14.4,
+                0
+            ]
+        },
+        "fixed": {
+            "rotation": [
+                -90,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -1,
+                -13.5
+            ],
+            "scale": [
+                1.7,
+                1.7,
+                1.7
+            ]
+        }
+    },
+    "groups": [
+        {
+            "name": "pokedoll_baltoy",
+            "origin": [
+                8,
+                8,
+                8
+            ],
+            "color": 0,
+            "children": [
+                0,
+                1,
+                {
+                    "name": "group",
+                    "origin": [
+                        11.02958,
+                        3.11315,
+                        8.5
+                    ],
+                    "color": 0,
+                    "children": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "name": "group",
+                    "origin": [
+                        8,
+                        9.87123,
+                        10.76131
+                    ],
+                    "color": 0,
+                    "children": [
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                {
+                    "name": "group",
+                    "origin": [
+                        9.99823,
+                        1.51,
+                        5.99005
+                    ],
+                    "color": 0,
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokedoll_quilladin",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokedoll_quilladin"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokedoll_quilladin",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokedoll_quilladin",
+            "y": 270
+        }
+    }
+}
