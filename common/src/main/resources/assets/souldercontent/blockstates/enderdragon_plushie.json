@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/enderdragon_plushie",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/enderdragon_plushie"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/enderdragon_plushie",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/enderdragon_plushie",
+            "y": 270
+        }
+    }
+}

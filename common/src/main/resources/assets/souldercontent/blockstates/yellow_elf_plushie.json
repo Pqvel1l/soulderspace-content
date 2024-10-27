@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/yellow_elf_plushie",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/yellow_elf_plushie"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/yellow_elf_plushie",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/yellow_elf_plushie",
+            "y": 270
+        }
+    }
+}

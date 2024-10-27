@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/cave_spider_plushie",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/cave_spider_plushie"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/cave_spider_plushie",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/cave_spider_plushie",
+            "y": 270
+        }
+    }
+}
