@@ -812,7 +812,7 @@ public class SoulderContentForge {
                                         // Проверяем, что предмет существует, прежде чем добавлять его
                                         if (item != null) {
                                             entries.add(item.getDefaultStack());
-                                            LOGGER.warn("Предмет с ID " + itemID + " не найден в реестре.");
+//                                            LOGGER.warn("Предмет с ID " + itemID + " не найден в реестре.");
                                         }
                                     }
                                 })
