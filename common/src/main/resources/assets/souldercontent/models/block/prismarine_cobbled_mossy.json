@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/prismarine_cobbled_mossy"
+    },
+    "render_type": "minecraft:cutout"
+}

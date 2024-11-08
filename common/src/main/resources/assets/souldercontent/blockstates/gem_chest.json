@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/gem_chest",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/gem_chest"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/gem_chest",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/gem_chest",
+            "y": 270
+        }
+    }
+}

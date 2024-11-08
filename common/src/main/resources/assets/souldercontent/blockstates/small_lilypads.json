@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/small_lilypads",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/small_lilypads"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/small_lilypads",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/small_lilypads",
+            "y": 270
+        }
+    }
+}

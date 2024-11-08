@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/purple_terracotta_pavement"
+    },
+    "render_type": "minecraft:cutout"
+}

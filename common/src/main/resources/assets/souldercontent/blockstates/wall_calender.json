@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/wall_calender",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/wall_calender"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/wall_calender",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/wall_calender",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/granite_cut",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/granite_cut"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/granite_cut",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/granite_cut",
+            "y": 270
+        }
+    }
+}

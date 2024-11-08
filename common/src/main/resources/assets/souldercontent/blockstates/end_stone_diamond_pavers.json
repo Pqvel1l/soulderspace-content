@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/end_stone_diamond_pavers",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/end_stone_diamond_pavers"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/end_stone_diamond_pavers",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/end_stone_diamond_pavers",
+            "y": 270
+        }
+    }
+}

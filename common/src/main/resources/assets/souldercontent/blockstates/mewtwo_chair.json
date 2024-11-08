@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/mewtwo_chair",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/mewtwo_chair"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/mewtwo_chair",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/mewtwo_chair",
+            "y": 270
+        }
+    }
+}

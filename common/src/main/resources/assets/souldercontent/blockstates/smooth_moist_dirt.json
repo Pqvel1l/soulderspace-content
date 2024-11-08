@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/smooth_moist_dirt",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/smooth_moist_dirt"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/smooth_moist_dirt",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/smooth_moist_dirt",
+            "y": 270
+        }
+    }
+}

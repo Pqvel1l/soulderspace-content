@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/trash_can_2_dirty",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/trash_can_2_dirty"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/trash_can_2_dirty",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/trash_can_2_dirty",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/torii",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/torii"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/torii",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/torii",
+            "y": 270
+        }
+    }
+}

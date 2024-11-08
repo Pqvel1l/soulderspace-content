@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokemaxx_store",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokemaxx_store"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokemaxx_store",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokemaxx_store",
+            "y": 270
+        }
+    }
+}

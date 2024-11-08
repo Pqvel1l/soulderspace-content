@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/charmander_armchair",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/charmander_armchair"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/charmander_armchair",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/charmander_armchair",
+            "y": 270
+        }
+    }
+}

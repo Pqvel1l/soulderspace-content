@@ -1,5 +1,5 @@
 {
-  "parent": "souldercontent:item/coin_template",
+  "parent": "souldercontent:item/coin_template_super",
   "textures": {
     "layer0": "souldercontent:item/supercoin"
   }

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/ghost_plank",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/ghost_plank"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/ghost_plank",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/ghost_plank",
+            "y": 270
+        }
+    }
+}

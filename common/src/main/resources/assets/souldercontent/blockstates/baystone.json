@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/baystone",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/baystone"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/baystone",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/baystone",
+            "y": 270
+        }
+    }
+}

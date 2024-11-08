@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/marble_red",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/marble_red"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/marble_red",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/marble_red",
+            "y": 270
+        }
+    }
+}

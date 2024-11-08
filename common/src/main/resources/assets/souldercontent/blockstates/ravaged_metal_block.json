@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/ravaged_metal_block",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/ravaged_metal_block"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/ravaged_metal_block",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/ravaged_metal_block",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/drinking_fountain",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/drinking_fountain"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/drinking_fountain",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/drinking_fountain",
+            "y": 270
+        }
+    }
+}

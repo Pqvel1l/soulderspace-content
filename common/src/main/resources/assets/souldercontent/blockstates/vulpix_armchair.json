@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/vulpix_armchair",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/vulpix_armchair"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/vulpix_armchair",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/vulpix_armchair",
+            "y": 270
+        }
+    }
+}

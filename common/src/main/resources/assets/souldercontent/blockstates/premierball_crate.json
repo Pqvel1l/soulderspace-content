@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/premierball_crate",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/premierball_crate"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/premierball_crate",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/premierball_crate",
+            "y": 270
+        }
+    }
+}

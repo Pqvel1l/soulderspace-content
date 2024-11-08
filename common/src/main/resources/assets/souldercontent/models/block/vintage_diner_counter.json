@@ -1,0 +1,379 @@
+{
+    "credit": "Modelled By: Herbert Richard",
+    "texture_size": [
+        32,
+        32
+    ],
+    "textures": {
+        "0": "souldercontent:block/furniture/vintage_diner_counter",
+        "particle": "souldercontent:block/furniture/vintage_diner_counter"
+    },
+    "elements": [
+        {
+            "from": [
+                3,
+                8,
+                3
+            ],
+            "to": [
+                13,
+                11,
+                13
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    0,
+                    0,
+                    1
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        5,
+                        6,
+                        10,
+                        7.5
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        5,
+                        7.5,
+                        10,
+                        9
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        8,
+                        0,
+                        13,
+                        1.5
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        8,
+                        1.5,
+                        13,
+                        3
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        5,
+                        5,
+                        0,
+                        0
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        5,
+                        5,
+                        0,
+                        10
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "from": [
+                7,
+                0,
+                7
+            ],
+            "to": [
+                9,
+                9,
+                9
+            ],
+            "rotation": {
+                "angle": 45,
+                "axis": "y",
+                "origin": [
+                    8,
+                    4.5,
+                    8
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        5,
+                        9,
+                        6,
+                        13.5
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        6,
+                        9,
+                        7,
+                        13.5
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        7,
+                        9,
+                        8,
+                        13.5
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        8,
+                        9,
+                        9,
+                        13.5
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        1,
+                        11,
+                        0,
+                        10
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        2,
+                        10,
+                        1,
+                        11
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "from": [
+                5,
+                0,
+                5
+            ],
+            "to": [
+                11,
+                2,
+                11
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    2,
+                    0,
+                    4
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        8,
+                        3,
+                        11,
+                        4
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        8,
+                        4,
+                        11,
+                        5
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        8,
+                        5,
+                        11,
+                        6
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        9,
+                        9,
+                        12,
+                        10
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        8,
+                        3,
+                        5,
+                        0
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        8,
+                        3,
+                        5,
+                        6
+                    ],
+                    "texture": "#0"
+                }
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                75,
+                45,
+                0
+            ],
+            "translation": [
+                0,
+                2.5,
+                0
+            ],
+            "scale": [
+                0.375,
+                0.375,
+                0.375
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                75,
+                45,
+                0
+            ],
+            "translation": [
+                0,
+                2.5,
+                0
+            ],
+            "scale": [
+                0.375,
+                0.375,
+                0.375
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                45,
+                0
+            ],
+            "translation": [
+                1.75,
+                2.25,
+                0
+            ],
+            "scale": [
+                0.4,
+                0.4,
+                0.4
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                45,
+                0
+            ],
+            "translation": [
+                1.75,
+                2.25,
+                0
+            ],
+            "scale": [
+                0.4,
+                0.4,
+                0.4
+            ]
+        },
+        "ground": {
+            "translation": [
+                0,
+                3,
+                0
+            ],
+            "scale": [
+                0.25,
+                0.25,
+                0.25
+            ]
+        },
+        "gui": {
+            "rotation": [
+                30,
+                225,
+                0
+            ],
+            "translation": [
+                0,
+                0.25,
+                0
+            ],
+            "scale": [
+                0.725,
+                0.725,
+                0.725
+            ]
+        },
+        "head": {
+            "translation": [
+                0,
+                -30.5,
+                0
+            ],
+            "scale": [
+                1.6,
+                1.6,
+                1.6
+            ]
+        },
+        "fixed": {
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        }
+    },
+    "groups": [
+        {
+            "name": "root",
+            "origin": [
+                8,
+                8,
+                8
+            ],
+            "color": 0,
+            "children": [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "render_type": "minecraft:cutout"
+}

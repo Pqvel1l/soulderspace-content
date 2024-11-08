@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/arrow_sign_neon",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/arrow_sign_neon"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/arrow_sign_neon",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/arrow_sign_neon",
+            "y": 270
+        }
+    }
+}

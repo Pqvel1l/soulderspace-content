@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/strata_raw",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/strata_raw"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/strata_raw",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/strata_raw",
+            "y": 270
+        }
+    }
+}

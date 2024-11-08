@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/wood_bench",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/wood_bench"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/wood_bench",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/wood_bench",
+            "y": 270
+        }
+    }
+}

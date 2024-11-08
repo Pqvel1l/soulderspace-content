@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/wall_green_lipless",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/wall_green_lipless"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/wall_green_lipless",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/wall_green_lipless",
+            "y": 270
+        }
+    }
+}

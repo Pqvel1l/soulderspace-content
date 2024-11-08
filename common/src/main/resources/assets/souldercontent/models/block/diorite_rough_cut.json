@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "top": "souldercontent:block/diorite_rough_cut_top",
+        "side": "souldercontent:block/diorite_rough_cut_side",
+        "bottom": "souldercontent:block/diorite_rough_cut_bottom"
+    },
+    "render_type": "minecraft:cutout"
+}

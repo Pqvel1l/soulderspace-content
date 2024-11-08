@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/carved_warped_planks"
+    },
+    "render_type": "minecraft:cutout"
+}

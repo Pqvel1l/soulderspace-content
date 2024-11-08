@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/prismarine_tiled",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/prismarine_tiled"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/prismarine_tiled",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/prismarine_tiled",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/metal_beams",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/metal_beams"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/metal_beams",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/metal_beams",
+            "y": 270
+        }
+    }
+}

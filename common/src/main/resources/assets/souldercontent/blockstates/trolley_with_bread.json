@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/trolley_with_bread",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/trolley_with_bread"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/trolley_with_bread",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/trolley_with_bread",
+            "y": 270
+        }
+    }
+}

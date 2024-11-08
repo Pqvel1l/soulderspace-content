@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/hay_cart",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/hay_cart"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/hay_cart",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/hay_cart",
+            "y": 270
+        }
+    }
+}

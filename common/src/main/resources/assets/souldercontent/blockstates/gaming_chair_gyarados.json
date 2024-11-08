@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/gaming_chair_gyarados",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/gaming_chair_gyarados"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/gaming_chair_gyarados",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/gaming_chair_gyarados",
+            "y": 270
+        }
+    }
+}

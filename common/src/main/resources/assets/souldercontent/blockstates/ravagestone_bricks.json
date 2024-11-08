@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/ravagestone_bricks",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/ravagestone_bricks"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/ravagestone_bricks",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/ravagestone_bricks",
+            "y": 270
+        }
+    }
+}

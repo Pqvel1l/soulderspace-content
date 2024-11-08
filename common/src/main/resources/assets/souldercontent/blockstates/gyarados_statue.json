@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/gyarados_statue",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/gyarados_statue"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/gyarados_statue",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/gyarados_statue",
+            "y": 270
+        }
+    }
+}

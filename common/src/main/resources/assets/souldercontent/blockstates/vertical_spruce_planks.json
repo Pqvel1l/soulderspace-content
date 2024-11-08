@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/vertical_spruce_planks",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/vertical_spruce_planks"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/vertical_spruce_planks",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/vertical_spruce_planks",
+            "y": 270
+        }
+    }
+}

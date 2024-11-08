@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/temple_brick"
+    },
+    "render_type": "minecraft:cutout"
+}

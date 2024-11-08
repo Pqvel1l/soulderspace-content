@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokegem_ore",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokegem_ore"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokegem_ore",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokegem_ore",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/andesite_carved_derp"
+    },
+    "render_type": "minecraft:cutout"
+}

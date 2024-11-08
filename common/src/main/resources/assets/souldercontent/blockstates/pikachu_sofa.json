@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pikachu_sofa",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pikachu_sofa"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pikachu_sofa",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pikachu_sofa",
+            "y": 270
+        }
+    }
+}

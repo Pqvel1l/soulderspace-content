@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/tent",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/tent"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/tent",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/tent",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/tv_stand_spruce",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/tv_stand_spruce"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/tv_stand_spruce",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/tv_stand_spruce",
+            "y": 270
+        }
+    }
+}

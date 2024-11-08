@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/gaming_chair_lunala",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/gaming_chair_lunala"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/gaming_chair_lunala",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/gaming_chair_lunala",
+            "y": 270
+        }
+    }
+}

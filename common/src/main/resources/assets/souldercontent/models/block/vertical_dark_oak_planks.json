@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/vertical_dark_oak_planks"
+    },
+    "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/spruce_crate_side",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/spruce_crate_side"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/spruce_crate_side",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/spruce_crate_side",
+            "y": 270
+        }
+    }
+}

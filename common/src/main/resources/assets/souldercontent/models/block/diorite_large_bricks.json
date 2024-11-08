@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/diorite_large_bricks"
+    },
+    "render_type": "minecraft:cutout"
+}

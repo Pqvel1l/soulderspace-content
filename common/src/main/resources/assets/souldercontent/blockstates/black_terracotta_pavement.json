@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/black_terracotta_pavement",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/black_terracotta_pavement"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/black_terracotta_pavement",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/black_terracotta_pavement",
+            "y": 270
+        }
+    }
+}

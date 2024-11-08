@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/andesite_carved_villager",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/andesite_carved_villager"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/andesite_carved_villager",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/andesite_carved_villager",
+            "y": 270
+        }
+    }
+}

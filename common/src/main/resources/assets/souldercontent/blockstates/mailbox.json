@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/mailbox",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/mailbox"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/mailbox",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/mailbox",
+            "y": 270
+        }
+    }
+}

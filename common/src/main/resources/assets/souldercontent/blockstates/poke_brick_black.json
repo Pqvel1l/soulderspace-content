@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/poke_brick_black",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/poke_brick_black"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/poke_brick_black",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/poke_brick_black",
+            "y": 270
+        }
+    }
+}

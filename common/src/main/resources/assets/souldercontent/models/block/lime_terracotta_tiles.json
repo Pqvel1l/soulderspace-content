@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/lime_terracotta_tiles"
+    },
+    "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,197 @@
+{
+    "credit": "Made with Blockbench",
+    "texture_size": [
+        128,
+        128
+    ],
+    "textures": {
+        "0": "souldercontent:block/furniture/pika_graffiti",
+        "particle": "souldercontent:block/furniture/pika_graffiti"
+    },
+    "elements": [
+        {
+            "from": [
+                -15.725,
+                0,
+                8
+            ],
+            "to": [
+                31.725,
+                28.6,
+                8
+            ],
+            "rotation": {
+                "angle": 0,
+                "axis": "y",
+                "origin": [
+                    5.075,
+                    0,
+                    8.65
+                ]
+            },
+            "faces": {
+                "north": {
+                    "uv": [
+                        0,
+                        0,
+                        9.125,
+                        5.5
+                    ],
+                    "texture": "#0"
+                },
+                "east": {
+                    "uv": [
+                        0,
+                        0,
+                        0,
+                        4
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        0,
+                        0,
+                        9.125,
+                        5.5
+                    ],
+                    "texture": "#0"
+                },
+                "west": {
+                    "uv": [
+                        0,
+                        0,
+                        0,
+                        4
+                    ],
+                    "texture": "#0"
+                },
+                "up": {
+                    "uv": [
+                        6,
+                        0,
+                        0,
+                        0
+                    ],
+                    "texture": "#0"
+                },
+                "down": {
+                    "uv": [
+                        6,
+                        0,
+                        0,
+                        0
+                    ],
+                    "texture": "#0"
+                }
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                0,
+                -180,
+                0
+            ],
+            "translation": [
+                0,
+                0.75,
+                1.5
+            ],
+            "scale": [
+                0.23,
+                0.23,
+                0.23
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                0,
+                -180,
+                0
+            ],
+            "translation": [
+                0,
+                0.75,
+                1.5
+            ],
+            "scale": [
+                0.23,
+                0.23,
+                0.23
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                -180,
+                0
+            ],
+            "translation": [
+                0,
+                0.75,
+                1.5
+            ],
+            "scale": [
+                0.23,
+                0.23,
+                0.23
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                -180,
+                0
+            ],
+            "translation": [
+                0,
+                0.75,
+                1.5
+            ],
+            "scale": [
+                0.23,
+                0.23,
+                0.23
+            ]
+        },
+        "ground": {
+            "scale": [
+                0.33,
+                0.33,
+                0.33
+            ]
+        },
+        "gui": {
+            "rotation": [
+                15,
+                -135,
+                0
+            ],
+            "translation": [
+                0,
+                -3.25,
+                0
+            ],
+            "scale": [
+                0.4,
+                0.4,
+                0.4
+            ]
+        },
+        "fixed": {
+            "translation": [
+                0,
+                -3.5,
+                0.5
+            ],
+            "scale": [
+                0.37,
+                0.37,
+                0.37
+            ]
+        }
+    },
+    "render_type": "minecraft:cutout"
+}

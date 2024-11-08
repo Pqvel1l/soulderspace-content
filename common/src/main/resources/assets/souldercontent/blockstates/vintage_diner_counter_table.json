@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/vintage_diner_counter_table",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/vintage_diner_counter_table"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/vintage_diner_counter_table",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/vintage_diner_counter_table",
+            "y": 270
+        }
+    }
+}

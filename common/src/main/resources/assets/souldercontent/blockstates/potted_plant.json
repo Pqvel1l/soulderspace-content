@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/potted_plant",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/potted_plant"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/potted_plant",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/potted_plant",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "top": "souldercontent:block/grass_top",
+        "side": "souldercontent:block/cool_stone_grass",
+        "bottom": "souldercontent:block/cool_stone"
+    },
+    "render_type": "minecraft:cutout"
+}

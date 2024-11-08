@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "souldercontent:block/granite_engraved_top",
+        "side": "souldercontent:block/granite_engraved_side"
+    },
+    "render_type": "minecraft:cutout"
+}

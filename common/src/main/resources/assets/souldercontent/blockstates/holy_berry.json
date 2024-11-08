@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/holy_berry",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/holy_berry"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/holy_berry",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/holy_berry",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/andesite_large_bricks_cracked",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/andesite_large_bricks_cracked"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/andesite_large_bricks_cracked",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/andesite_large_bricks_cracked",
+            "y": 270
+        }
+    }
+}

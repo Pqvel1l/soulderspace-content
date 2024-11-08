@@ -4,7 +4,8 @@
     "textures": {
         "0": "block/cauldron_inner",
         "1": "block/cauldron_side",
-        "2": "block/cauldron_top"
+        "2": "block/cauldron_top",
+        "particle": "block/cauldron_side"
     },
     "elements": [
         {

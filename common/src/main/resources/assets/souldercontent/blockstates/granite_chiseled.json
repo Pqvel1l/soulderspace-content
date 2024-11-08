@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/granite_chiseled",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/granite_chiseled"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/granite_chiseled",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/granite_chiseled",
+            "y": 270
+        }
+    }
+}

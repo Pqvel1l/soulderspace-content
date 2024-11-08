@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/hanging_plant",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/hanging_plant"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/hanging_plant",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/hanging_plant",
+            "y": 270
+        }
+    }
+}

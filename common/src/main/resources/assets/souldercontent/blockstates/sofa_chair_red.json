@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/sofa_chair_red",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/sofa_chair_red"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/sofa_chair_red",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/sofa_chair_red",
+            "y": 270
+        }
+    }
+}

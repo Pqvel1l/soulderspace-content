@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "souldercontent:block/andesite_engraved_top",
+        "side": "souldercontent:block/andesite_engraved_side"
+    },
+    "render_type": "minecraft:cutout"
+}

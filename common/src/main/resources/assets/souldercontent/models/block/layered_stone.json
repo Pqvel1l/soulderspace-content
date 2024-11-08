@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/layered_stone"
+    },
+    "render_type": "minecraft:cutout"
+}

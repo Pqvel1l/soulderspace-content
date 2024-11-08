@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/dark_prismarine_carved_creeper",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/dark_prismarine_carved_creeper"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/dark_prismarine_carved_creeper",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/dark_prismarine_carved_creeper",
+            "y": 270
+        }
+    }
+}

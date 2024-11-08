@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/lamps",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/lamps"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/lamps",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/lamps",
+            "y": 270
+        }
+    }
+}

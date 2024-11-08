@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/dark_mud"
+    },
+    "render_type": "minecraft:cutout"
+}

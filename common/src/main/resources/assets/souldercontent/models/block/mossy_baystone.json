@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "side": "souldercontent:block/mossy_baystone_side",
+        "top": "souldercontent:block/mossy_baystone_top",
+        "bottom": "souldercontent:block/baystone"
+    },
+    "render_type": "minecraft:cutout"
+}

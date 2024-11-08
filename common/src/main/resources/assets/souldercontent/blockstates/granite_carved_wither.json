@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/granite_carved_wither",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/granite_carved_wither"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/granite_carved_wither",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/granite_carved_wither",
+            "y": 270
+        }
+    }
+}

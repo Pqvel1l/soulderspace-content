@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/acacia_braced_planks"
+    },
+    "render_type": "minecraft:cutout"
+}

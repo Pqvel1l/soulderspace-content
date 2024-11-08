@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/sunny_sandstone",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/sunny_sandstone"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/sunny_sandstone",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/sunny_sandstone",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/gem_bag",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/gem_bag"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/gem_bag",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/gem_bag",
+            "y": 270
+        }
+    }
+}

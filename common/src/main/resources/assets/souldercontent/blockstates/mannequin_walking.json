@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/mannequin_walking",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/mannequin_walking"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/mannequin_walking",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/mannequin_walking",
+            "y": 270
+        }
+    }
+}

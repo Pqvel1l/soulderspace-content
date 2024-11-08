@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/painting_cubone_big",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/painting_cubone_big"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/painting_cubone_big",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/painting_cubone_big",
+            "y": 270
+        }
+    }
+}

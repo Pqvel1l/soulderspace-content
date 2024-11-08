@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/zubat_tv",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/zubat_tv"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/zubat_tv",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/zubat_tv",
+            "y": 270
+        }
+    }
+}

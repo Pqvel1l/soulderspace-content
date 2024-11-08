@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "top": "souldercontent:block/granite_rough_cut_top",
+        "side": "souldercontent:block/granite_rough_cut_side",
+        "bottom": "souldercontent:block/granite_rough_cut_bottom"
+    },
+    "render_type": "minecraft:cutout"
+}

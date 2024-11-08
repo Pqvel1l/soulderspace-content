@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/chair_oak",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/chair_oak"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/chair_oak",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/chair_oak",
+            "y": 270
+        }
+    }
+}

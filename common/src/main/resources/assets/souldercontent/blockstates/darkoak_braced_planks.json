@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/darkoak_braced_planks",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/darkoak_braced_planks"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/darkoak_braced_planks",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/darkoak_braced_planks",
+            "y": 270
+        }
+    }
+}

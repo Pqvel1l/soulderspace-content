@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pink_shingles",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pink_shingles"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pink_shingles",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pink_shingles",
+            "y": 270
+        }
+    }
+}

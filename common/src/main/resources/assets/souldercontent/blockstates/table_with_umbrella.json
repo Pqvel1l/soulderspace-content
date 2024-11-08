@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/table_with_umbrella",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/table_with_umbrella"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/table_with_umbrella",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/table_with_umbrella",
+            "y": 270
+        }
+    }
+}

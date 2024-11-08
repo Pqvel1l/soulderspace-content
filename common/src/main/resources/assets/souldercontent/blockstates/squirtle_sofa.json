@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/squirtle_sofa",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/squirtle_sofa"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/squirtle_sofa",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/squirtle_sofa",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/small_logo_banner",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/small_logo_banner"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/small_logo_banner",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/small_logo_banner",
+            "y": 270
+        }
+    }
+}

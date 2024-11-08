@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "top": "souldercontent:block/dried_dirt_grass_top",
+        "side": "souldercontent:block/dried_dirt_grass",
+        "bottom": "souldercontent:block/dried_dirt"
+    },
+    "render_type": "minecraft:cutout"
+}

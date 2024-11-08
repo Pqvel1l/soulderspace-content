@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/standing_flower",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/standing_flower"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/standing_flower",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/standing_flower",
+            "y": 270
+        }
+    }
+}

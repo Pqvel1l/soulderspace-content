@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "souldercontent:block/prismarine_pillar_top",
+        "side": "souldercontent:block/prismarine_pillar_side"
+    },
+    "render_type": "minecraft:cutout"
+}

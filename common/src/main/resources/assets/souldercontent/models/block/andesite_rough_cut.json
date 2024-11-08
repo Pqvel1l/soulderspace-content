@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "top": "souldercontent:block/andesite_rough_cut_top",
+        "side": "souldercontent:block/andesite_rough_cut_side",
+        "all": "souldercontent:block/andesite_rough_cut_button"
+    },
+    "render_type": "minecraft:cutout"
+}

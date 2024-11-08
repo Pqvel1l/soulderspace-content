@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/scaffolding",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/scaffolding"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/scaffolding",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/scaffolding",
+            "y": 270
+        }
+    }
+}

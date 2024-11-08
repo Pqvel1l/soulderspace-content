@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/water_lily_big_cyan",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/water_lily_big_cyan"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/water_lily_big_cyan",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/water_lily_big_cyan",
+            "y": 270
+        }
+    }
+}

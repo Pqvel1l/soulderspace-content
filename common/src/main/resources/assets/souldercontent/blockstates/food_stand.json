@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/food_stand",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/food_stand"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/food_stand",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/food_stand",
+            "y": 270
+        }
+    }
+}

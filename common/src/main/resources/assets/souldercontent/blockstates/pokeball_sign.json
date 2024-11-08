@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokeball_sign",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokeball_sign"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokeball_sign",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokeball_sign",
+            "y": 270
+        }
+    }
+}

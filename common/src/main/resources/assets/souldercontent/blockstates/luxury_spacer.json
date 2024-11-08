@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/luxury_spacer",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/luxury_spacer"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/luxury_spacer",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/luxury_spacer",
+            "y": 270
+        }
+    }
+}

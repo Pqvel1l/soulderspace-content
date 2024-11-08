@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/elevator_magenta"
+    },
+    "render_type": "minecraft:cutout"
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/wood_arrows",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/wood_arrows"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/wood_arrows",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/wood_arrows",
+            "y": 270
+        }
+    }
+}

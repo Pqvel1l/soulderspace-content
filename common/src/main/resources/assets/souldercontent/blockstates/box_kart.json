@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/box_kart",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/box_kart"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/box_kart",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/box_kart",
+            "y": 270
+        }
+    }
+}

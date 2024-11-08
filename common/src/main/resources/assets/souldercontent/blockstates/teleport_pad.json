@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/teleport_pad",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/teleport_pad"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/teleport_pad",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/teleport_pad",
+            "y": 270
+        }
+    }
+}

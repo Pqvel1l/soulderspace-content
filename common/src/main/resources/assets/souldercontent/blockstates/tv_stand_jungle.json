@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/tv_stand_jungle",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/tv_stand_jungle"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/tv_stand_jungle",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/tv_stand_jungle",
+            "y": 270
+        }
+    }
+}

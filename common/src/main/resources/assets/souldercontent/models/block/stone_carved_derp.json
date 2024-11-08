@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "souldercontent:block/stone_carved_bottom",
+        "side": "souldercontent:block/stone_carved_derp"
+    },
+    "render_type": "minecraft:cutout"
+}

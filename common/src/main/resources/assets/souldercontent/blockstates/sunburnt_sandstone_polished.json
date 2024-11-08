@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/sunburnt_sandstone_polished",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/sunburnt_sandstone_polished"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/sunburnt_sandstone_polished",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/sunburnt_sandstone_polished",
+            "y": 270
+        }
+    }
+}

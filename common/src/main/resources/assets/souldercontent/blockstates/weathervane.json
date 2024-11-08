@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/weathervane",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/weathervane"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/weathervane",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/weathervane",
+            "y": 270
+        }
+    }
+}

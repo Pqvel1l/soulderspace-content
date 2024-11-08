@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/room_divider",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/room_divider"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/room_divider",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/room_divider",
+            "y": 270
+        }
+    }
+}

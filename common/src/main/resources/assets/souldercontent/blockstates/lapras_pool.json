@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/lapras_pool",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/lapras_pool"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/lapras_pool",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/lapras_pool",
+            "y": 270
+        }
+    }
+}

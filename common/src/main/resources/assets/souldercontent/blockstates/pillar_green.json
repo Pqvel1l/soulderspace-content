@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pillar_green",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pillar_green"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pillar_green",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pillar_green",
+            "y": 270
+        }
+    }
+}

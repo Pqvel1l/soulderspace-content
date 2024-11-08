@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/breeding_center_sign",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/breeding_center_sign"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/breeding_center_sign",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/breeding_center_sign",
+            "y": 270
+        }
+    }
+}

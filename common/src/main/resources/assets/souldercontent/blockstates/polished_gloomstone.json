@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/polished_gloomstone",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/polished_gloomstone"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/polished_gloomstone",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/polished_gloomstone",
+            "y": 270
+        }
+    }
+}

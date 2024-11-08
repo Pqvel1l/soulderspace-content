@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/white_terracotta_bricks"
+    },
+    "render_type": "minecraft:cutout"
+}

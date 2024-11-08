@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/ravaged_metal_block"
+    },
+    "render_type": "minecraft:cutout"
+}

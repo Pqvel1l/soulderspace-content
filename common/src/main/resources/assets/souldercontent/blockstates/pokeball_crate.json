@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/pokeball_crate",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/pokeball_crate"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/pokeball_crate",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/pokeball_crate",
+            "y": 270
+        }
+    }
+}

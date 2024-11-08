@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/leaf_pile_3",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/leaf_pile_3"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/leaf_pile_3",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/leaf_pile_3",
+            "y": 270
+        }
+    }
+}

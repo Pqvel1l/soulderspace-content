@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/sunlounger",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/sunlounger"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/sunlounger",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/sunlounger",
+            "y": 270
+        }
+    }
+}

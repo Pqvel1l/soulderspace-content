@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/dark_prismarine_carved_derp",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/dark_prismarine_carved_derp"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/dark_prismarine_carved_derp",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/dark_prismarine_carved_derp",
+            "y": 270
+        }
+    }
+}

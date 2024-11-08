@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/diorite_engraved",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/diorite_engraved"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/diorite_engraved",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/diorite_engraved",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/bricks_path_1",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/bricks_path_1"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/bricks_path_1",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/bricks_path_1",
+            "y": 270
+        }
+    }
+}

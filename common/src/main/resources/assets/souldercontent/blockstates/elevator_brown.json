@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/elevator_brown",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/elevator_brown"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/elevator_brown",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/elevator_brown",
+            "y": 270
+        }
+    }
+}

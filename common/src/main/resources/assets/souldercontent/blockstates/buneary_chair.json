@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/buneary_chair",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/buneary_chair"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/buneary_chair",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/buneary_chair",
+            "y": 270
+        }
+    }
+}

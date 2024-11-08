@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/horsea",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/horsea"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/horsea",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/horsea",
+            "y": 270
+        }
+    }
+}

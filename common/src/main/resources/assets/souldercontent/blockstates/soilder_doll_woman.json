@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/soilder_doll_woman",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/soilder_doll_woman"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/soilder_doll_woman",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/soilder_doll_woman",
+            "y": 270
+        }
+    }
+}
