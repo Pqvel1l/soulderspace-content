@@ -1,9 +1,0 @@
-{
-    "parent": "souldercontent:block/pumpkin_base",
-    "textures": {
-        "0": "minecraft:block/pumpkin_top",
-        "1": "souldercontent:block/carved_smile_pumpkin",
-        "2": "minecraft:block/pumpkin_side",
-        "particle": "souldercontent:block/carved_evil_pumpkin"
-    }
-}

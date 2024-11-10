@@ -1,8 +1,0 @@
-{
-    "parent": "souldercontent:block/balloon",
-    "textures": {
-        "0": "souldercontent:block/pumpkin_balloon",
-        "1": "souldercontent:block/pumpkin_balloon_top",
-        "particle": "souldercontent:block/pumpkin_balloon"
-    }
-}

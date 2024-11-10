@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "souldercontent:carved_smile_pumpkin"
+                    "name": "souldercontent:magma_deepslate"
                 }
             ],
             "conditions": [

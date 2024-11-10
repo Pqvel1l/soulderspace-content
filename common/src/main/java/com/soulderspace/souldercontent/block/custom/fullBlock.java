@@ -18,7 +18,7 @@ public class fullBlock extends Block {
     private static final VoxelShape FULL = VoxelShapes.fullCube();
 
     public fullBlock() {
-        super(Settings.copy(Blocks.STONE).nonOpaque());
+        super(Settings.copy(Blocks.OAK_PLANKS).nonOpaque());
         setDefaultState(getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
 

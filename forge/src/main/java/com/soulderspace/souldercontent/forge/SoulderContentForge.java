@@ -129,7 +129,7 @@ public class SoulderContentForge {
                                             new Identifier(SoulderContent.ID, "pokehats/sylveonears"),
                                             new Identifier(SoulderContent.ID, "pokehats/umbreoncap"),
                                             new Identifier(SoulderContent.ID, "pokehats/victorhatnh"),
-                                            new Identifier(SoulderContent.ID, "pokehats/witch_hat"),
+//                                            new Identifier(SoulderContent.ID, "pokehats/witch_hat"),
                                             new Identifier(SoulderContent.ID, "pokehats/victorhat")
 
                                             // добавьте остальные ID по необходимости
@@ -155,6 +155,7 @@ public class SoulderContentForge {
                                 .entries((displayContext, entries) -> {
                                     // Добавляем предметы по их ID
                                     Identifier[] itemIDs = new Identifier[] {
+                                            new Identifier(SoulderContent.ID, "magma_deepslate"),
                                             new Identifier(SoulderContent.ID, "normal_chest"),
                                             new Identifier(SoulderContent.ID, "medium_chest"),
                                             new Identifier(SoulderContent.ID, "premium_chest"),
@@ -165,7 +166,7 @@ public class SoulderContentForge {
                                             new Identifier(SoulderContent.ID, "pink_green_crate"),
                                             new Identifier(SoulderContent.ID, "purple_light_purple_crate"),
                                             new Identifier(SoulderContent.ID, "red_golden_crate"),
-                                            new Identifier(SoulderContent.ID, "autumn_leaves_carpet_0"),
+/*                                            new Identifier(SoulderContent.ID, "autumn_leaves_carpet_0"),
                                             new Identifier(SoulderContent.ID, "spiderweb_0"),
                                             new Identifier(SoulderContent.ID, "spiderweb_1"),
                                             new Identifier(SoulderContent.ID, "spiderweb_2"),
@@ -175,7 +176,7 @@ public class SoulderContentForge {
                                             new Identifier(SoulderContent.ID, "skeleton_1"),
                                             new Identifier(SoulderContent.ID, "skeleton_2"),
                                             new Identifier(SoulderContent.ID, "skeleton_3"),
-                                            new Identifier(SoulderContent.ID, "skeleton_4"),
+                                            new Identifier(SoulderContent.ID, "skeleton_4"),*/
                                             new Identifier(SoulderContent.ID, "scarecrow_0_top"),
                                             new Identifier(SoulderContent.ID, "scarecrow_1_top"),
                                             new Identifier(SoulderContent.ID, "scarecrow_2_top"),
@@ -186,7 +187,7 @@ public class SoulderContentForge {
                                             new Identifier(SoulderContent.ID, "scarecrow_2_bottom"),
                                             new Identifier(SoulderContent.ID, "scarecrow_3_bottom"),
                                             new Identifier(SoulderContent.ID, "scarecrow_4_bottom"),
-                                            new Identifier(SoulderContent.ID, "carved_evil_pumpkin"),
+/*                                            new Identifier(SoulderContent.ID, "carved_evil_pumpkin"),
                                             new Identifier(SoulderContent.ID, "carved_friendly_pumpkin"),
                                             new Identifier(SoulderContent.ID, "carved_screaming_pumpkin"),
                                             new Identifier(SoulderContent.ID, "carved_shocked_pumpkin"),
@@ -219,7 +220,7 @@ public class SoulderContentForge {
                                             new Identifier(SoulderContent.ID, "gravestone"),
                                             new Identifier(SoulderContent.ID, "slanted_gravestone"),
                                             new Identifier(SoulderContent.ID, "square_gravestone"),
-                                            new Identifier(SoulderContent.ID, "small_gravestone"),
+                                            new Identifier(SoulderContent.ID, "small_gravestone"),*/
                                             new Identifier(SoulderContent.ID, "cake"),
                                             new Identifier(SoulderContent.ID, "candle"),
                                             new Identifier(SoulderContent.ID, "carpet"),

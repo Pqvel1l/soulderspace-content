@@ -73,7 +73,7 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item PSYCAP = hat("psycap");
     public final Item SYLVEONEARS = hat("sylveonears");
     public final Item UMBREONCAP = hat("umbreoncap");
-    public final Item WITCH_HAT = hat("witch_hat");
+//    public final Item WITCH_HAT = hat("witch_hat");
 
 
     public final Item AEGIS_BADGE = genericItem("aegis_badge");
@@ -679,9 +679,9 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item ZOMBIE_PLUSHIE = blockItem("zombie_plushie", SoulderBlocks.getInstance().ZOMBIE_PLUSHIE);
     public final Item ZOMBIE_VILLAGER_PLUSHIE = blockItem("zombie_villager_plushie", SoulderBlocks.getInstance().ZOMBIE_VILLAGER_PLUSHIE);
 
+    public final Item MAGMA_DEEPSLATE = blockItem("magma_deepslate", SoulderBlocks.getInstance().MAGMA_DEEPSLATE);
 
-
-    public final Item CARVED_EVIL_PUMPKIN = blockItem("carved_evil_pumpkin", SoulderBlocks.getInstance().CARVED_EVIL_PUMPKIN);
+    /*public final Item CARVED_EVIL_PUMPKIN = blockItem("carved_evil_pumpkin", SoulderBlocks.getInstance().CARVED_EVIL_PUMPKIN);
     public final Item CARVED_FRIENDLY_PUMPKIN = blockItem("carved_friendly_pumpkin", SoulderBlocks.getInstance().CARVED_FRIENDLY_PUMPKIN);
     public final Item CARVED_SCREAMING_PUMPKIN = blockItem("carved_screaming_pumpkin", SoulderBlocks.getInstance().CARVED_SCREAMING_PUMPKIN);
     public final Item CARVED_SHOCKED_PUMPKIN = blockItem("carved_shocked_pumpkin", SoulderBlocks.getInstance().CARVED_SHOCKED_PUMPKIN);
@@ -715,9 +715,7 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item GHOST_BALLOON = blockItem("ghost_balloon", SoulderBlocks.getInstance().GHOST_BALLOON);
     public final Item GHOST = blockItem("ghost", SoulderBlocks.getInstance().GHOST);
     public final Item WITCH_CAULDRON = blockItem("witch_cauldron", SoulderBlocks.getInstance().WITCH_CAULDRON);
-
-
-    public final Item AUTUMN_LEAVES_CARPET_0 = blockItem("autumn_leaves_carpet_0", SoulderBlocks.getInstance().AUTUMN_LEAVES_CARPET);
+*//* public final Item AUTUMN_LEAVES_CARPET_0 = blockItem("autumn_leaves_carpet_0", SoulderBlocks.getInstance().AUTUMN_LEAVES_CARPET);*/
     public final Item ACACIA_BENCH = blockItem("acacia_bench", SoulderBlocks.getInstance().ACACIA_BENCH);
     public final Item ACACIA_BRACED_PLANKS = blockItem("acacia_braced_planks", SoulderBlocks.getInstance().ACACIA_BRACED_PLANKS);
     public final Item ACACIA_SUPPORTED_PLANKS = blockItem("acacia_supported_planks", SoulderBlocks.getInstance().ACACIA_SUPPORTED_PLANKS);
@@ -1508,11 +1506,11 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item SOILDER_DOLL_WOMAN = blockItem("soilder_doll_woman", SoulderBlocks.getInstance().SOILDER_DOLL_WOMAN);
     public final Item WALL_CALENDER = blockItem("wall_calender", SoulderBlocks.getInstance().WALL_CALENDER);
 
-    public final Item SPIDERWEB_0 = blockItem("spiderweb_0", SoulderBlocks.getInstance().SPIDERWEB_0);
+/*    public final Item SPIDERWEB_0 = blockItem("spiderweb_0", SoulderBlocks.getInstance().SPIDERWEB_0);
     public final Item SPIDERWEB_1 = blockItem("spiderweb_1", SoulderBlocks.getInstance().SPIDERWEB_1);
     public final Item SPIDERWEB_2 = blockItem("spiderweb_2", SoulderBlocks.getInstance().SPIDERWEB_2);
     public final Item SPIDERWEB_3 = blockItem("spiderweb_3", SoulderBlocks.getInstance().SPIDERWEB_3);
-    public final Item SPIDERWEB_4 = blockItem("spiderweb_4", SoulderBlocks.getInstance().SPIDERWEB_4);
+    public final Item SPIDERWEB_4 = blockItem("spiderweb_4", SoulderBlocks.getInstance().SPIDERWEB_4);*/
 
     public final Item SKELETON_0 = blockItem("skeleton_0", SoulderBlocks.getInstance().SKELETON_0);
     public final Item SKELETON_1 = blockItem("skeleton_1", SoulderBlocks.getInstance().SKELETON_1);
