@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "adamantite",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "adamantite",
+  "ingredient": {
+    "item": "souldercontent:adamantite_raw_ore"
+  },
+  "result": "souldercontent:adamantite_ingot"
+}

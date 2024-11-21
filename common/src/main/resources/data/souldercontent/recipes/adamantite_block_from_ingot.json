@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "adamantite",
+  "key": {
+    "#": {
+      "item": "souldercontent:adamantite_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "souldercontent:adamantite_block"
+  },
+  "show_notification": true
+}

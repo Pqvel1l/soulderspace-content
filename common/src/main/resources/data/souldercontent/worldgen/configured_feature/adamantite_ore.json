@@ -1,0 +1,98 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 6,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "state": {
+          "Name": "souldercontent:adamantite_ore"
+        }
+      },{
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:tuff",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "state": {
+          "Name": "souldercontent:adamantite_ore"
+        }},
+      {
+          "target": {
+            "predicate_type": "blockstate_match",
+            "block_state": {
+              "Name": "minecraft:dripstone_block",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          },
+          "state": {
+            "Name": "souldercontent:adamantite_ore"
+          }},
+      {
+            "target": {
+              "predicate_type": "blockstate_match",
+              "block_state": {
+                "Name": "minecraft:granite",
+                "Properties": {
+                  "axis": "y"
+                }
+              }
+          },
+            "state": {
+              "Name": "souldercontent:adamantite_ore"
+            }},
+            {
+              "target": {
+                "predicate_type": "blockstate_match",
+                "block_state": {
+                  "Name": "minecraft:andesite",
+                  "Properties": {
+                    "axis": "y"
+                  }
+                }
+              },
+              "state": {
+                "Name": "souldercontent:adamantite_ore"
+              }},
+              {
+                "target": {
+                  "predicate_type": "blockstate_match",
+                  "block_state": {
+                    "Name": "minecraft:diorite",
+                    "Properties": {
+                      "axis": "y"
+                    }
+                  }
+                },
+                "state": {
+                  "Name": "souldercontent:adamantite_ore"
+                }},
+                {
+                  "target": {
+                    "predicate_type": "blockstate_match",
+                    "block_state": {
+                      "Name": "minecraft:moss_block",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  },
+                  "state": {
+                    "Name": "souldercontent:adamantite_ore"
+                  }
+      }
+    ]
+  }
+}

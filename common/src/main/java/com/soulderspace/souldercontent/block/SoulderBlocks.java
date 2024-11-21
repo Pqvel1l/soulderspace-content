@@ -35,6 +35,14 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
 
     public final Block MAGMA_DEEPSLATE = fullCube("magma_deepslate");
 
+    public final Block ADAMANTITE_ORE = adamant("adamantite_ore");
+    public final Block ADAMANTITE_BLOCK = adamant("adamantite_block");
+    public final Block ADAMANTITE_RAW_ORE_BLOCK = adamant("adamantite_raw_ore_block");
+
+    public final Block ANCIENT_MACHINE_FRAME = fullCube("ancient_machine_frame");
+    public final Block FUTURE_MACHINE_FRAME = fullCube("future_machine_frame");
+
+
     public final Block POKEDOLL_BIG_GIRATINA = pokedoll_BLOCK("pokedoll_big_giratina");
     public final Block POKEDOLL_CUBONE = pokedoll_BLOCK("pokedoll_cubone");
     public final Block POKEDOLL_ESPEON = pokedoll_BLOCK("pokedoll_espeon");
@@ -1445,18 +1453,13 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     private Block crateBlock(String name, boolean small) {
         return block(name, new CrateBlock(small));
     }
-    private Block allTypesLeaves(String name){return block(name, new AutumnLeavesCarpetBlock());}
+
     private Block carpet(String name){return block(name, new CarpetLikeBlock());}
-    private Block skullBlock(String name){return block(name, new LeavesBlock());}
-    private Block pumpkinLight(String name){return block(name, new pumpkins());}
+
     private Block fullCube(String name){return block(name, new fullBlock());}
     private Block ah(String name){return block(name, new Plushes(name));}
     private Block pokedoll_BLOCK(String name){return block(name, new Pokedoll());}
-    private Block walldecoBlock(String name){return block(name, new wall_deco());}
-    private Block gravehorizontal(String name){return block(name, new gravestone_1());}
-    private Block gravevertical(String name){return block(name, new gravestone_vertical());}
-    private Block gravesmall(String name){return block(name, new gravestone_small());}
-    private Block ballooned(String name){return block(name, new balloons());}
+    private Block adamant(String name) {return block(name, new adamantite_ore());}
     private Block scareCrow(String name){return block(name, new ScarecroweBox());}
     private Block skeletonBlock(String name){return block(name, new SkeletonsBox());}
     private Block block(String name, Block block) {

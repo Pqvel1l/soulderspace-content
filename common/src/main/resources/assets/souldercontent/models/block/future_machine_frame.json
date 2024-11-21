@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/future_machine_frame"
+    },
+    "render_type": "solid"
+}

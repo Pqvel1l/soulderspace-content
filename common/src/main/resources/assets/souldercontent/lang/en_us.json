@@ -1520,5 +1520,30 @@
   "item.souldercontent.phantom_badge": "Phantom Badge",
   "item.souldercontent.quarry_badge": "Quarry Badge",
   "item.souldercontent.sand_badge": "Sand Badge",
-  "item.souldercontent.tesla_badge": "Tesla Badge"
+  "item.souldercontent.tesla_badge": "Tesla Badge",
+
+  "block.souldercontent.magma_deepslate": "Magma Deepslate",
+  "item.souldercontent.invinsible_item": "Invisible Item",
+  "item.souldercontent.warp_house": "WARP-Item",
+
+
+  "item.souldercontent.ancient_bulb": "Ancient Bulb",
+  "item.souldercontent.ancient_compressed_reality": "Ancient Compressed Reality",
+  "item.souldercontent.ancient_gear": "Ancient Gear",
+  "item.souldercontent.ancient_life_aggregator": "Ancient Life Aggregator",
+  "item.souldercontent.ancient_microchip": "Ancient Microchip",
+  "item.souldercontent.bulb_of_the_future": "Bulb of the Future",
+  "item.souldercontent.compressed_reality_of_the_future": "Compressed Reality of the Future",
+  "item.souldercontent.gear_of_the_future": "Gear of the Future",
+  "item.souldercontent.life_aggregator_of_the_future": "Life Aggregator of the Future",
+  "item.souldercontent.microchip_of_the_future": "Microchip of the Future",
+  "block.souldercontent.adamantite_ore": "Adamantite Ore",
+  "block.souldercontent.adamantite_block": "Adamantite Block",
+  "item.souldercontent.adamantite_raw_ore": "Adamantite Raw Ore",
+  "block.souldercontent.adamantite_raw_ore_block": "Adamantite Raw Ore Block",
+  "item.souldercontent.adamantite_ingot": "Adamantite Ingot",
+  "item.souldercontent.adamantite_nugget": "Adamantite Nugget",
+  "block.souldercontent.ancient_machine_frame": "Ancient Machine Frame",
+  "block.souldercontent.future_machine_frame": "Future Machine Frame",
+  "item.souldercontent.lizard_scale": "Scale"
 }

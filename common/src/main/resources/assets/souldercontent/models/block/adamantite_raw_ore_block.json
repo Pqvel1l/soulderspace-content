@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/adamantite_raw_ore_block"
+    },
+    "render_type": "solid"
+}

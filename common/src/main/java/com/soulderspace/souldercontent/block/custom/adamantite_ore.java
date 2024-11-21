@@ -14,11 +14,11 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.Nullable;
 
-public class fullBlock extends Block {
+public class adamantite_ore extends Block {
     private static final VoxelShape FULL = VoxelShapes.fullCube();
 
-    public fullBlock() {
-        super(Settings.copy(Blocks.OAK_PLANKS));
+    public adamantite_ore() {
+        super(Settings.copy(Blocks.OBSIDIAN).strength(15F,15F));
         setDefaultState(getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
 

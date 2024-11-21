@@ -1,0 +1,6 @@
+{
+  "parent": "souldercontent:item/coin_template",
+  "textures": {
+    "layer0": "souldercontent:item/warp_house"
+  }
+}

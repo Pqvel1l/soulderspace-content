@@ -16,9 +16,28 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
 
     public final Item FALLEN_DEFENDER = item("fdefender_sword", new SwordItem(ToolMaterials.NETHERITE, 11, 1.6f, new Item.Settings().maxCount(1).maxDamage(16)));
     public final Item WILT_SWORD = item("wilt_sword", new SwordItem(ToolMaterials.NETHERITE, 9, 1.2f, new Item.Settings().maxCount(1).maxDamage(31)));
-//    public final Item POKE_COIN_BRONZE = genericItem("poke_coin_bronze");
-//    public final Item POKE_COIN_SILVER = genericItem("poke_coin_silver");
-//    public final Item POKE_COIN_GOLD = genericItem("poke_coin_gold")
+
+    public final Item ANCIENT_BULB = genericItem("ancient_bulb");
+    public final Item ANCIENT_COMPRESSED_REALITY = genericItem("ancient_compressed_reality");
+    public final Item ANCIENT_GEAR = genericItem("ancient_gear");
+    public final Item ANCIENT_LIFE_AGGREGATOR = genericItem("ancient_life_aggregator");
+    public final Item ANCIENT_MICROCHIP = genericItem("ancient_microchip");
+    public final Item BULB_OF_THE_FUTURE = genericItem("bulb_of_the_future");
+    public final Item COMPRESSED_REALITY_OF_THE_FUTURE = genericItem("compressed_reality_of_the_future");
+    public final Item GEAR_OF_THE_FUTURE = genericItem("gear_of_the_future");
+    public final Item LIFE_AGGREGATOR_OF_THE_FUTURE = genericItem("life_aggregator_of_the_future");
+    public final Item MICROCHIP_OF_THE_FUTURE = genericItem("microchip_of_the_future");
+
+    public final Item ADAMANTITE_ORE = blockItem("adamantite_ore", SoulderBlocks.getInstance().ADAMANTITE_ORE);
+    public final Item ADAMANTITE_BLOCK = blockItem("adamantite_block", SoulderBlocks.getInstance().ADAMANTITE_BLOCK);
+    public final Item ADAMANTITE_RAW_ORE = genericItem("adamantite_raw_ore");
+    public final Item ADAMANTITE_RAW_ORE_BLOCK = blockItem("adamantite_raw_ore_block", SoulderBlocks.getInstance().ADAMANTITE_RAW_ORE_BLOCK);
+    public final Item ADAMANTITE_INGOT = genericItem("adamantite_ingot");
+    public final Item ADAMANTITE_NUGGET = genericItem("adamantite_nugget");
+    public final Item ANCIENT_MACHINE_FRAME = blockItem("ancient_machine_frame", SoulderBlocks.getInstance().ANCIENT_MACHINE_FRAME);
+    public final Item FUTURE_MACHINE_FRAME = blockItem("future_machine_frame", SoulderBlocks.getInstance().FUTURE_MACHINE_FRAME);
+    public final Item LIZARD_SCALE = genericItem("lizard_scale");
+
     public final Item ENVELOPE = genericItem("envelope");
     public final Item SUSPICIOUS_CLOTH = genericItem("suspicious_cloth");
     public final Item SUSPICIOUS_RUBBER = genericItem("suspicious_rubber");
@@ -75,7 +94,8 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item UMBREONCAP = hat("umbreoncap");
 //    public final Item WITCH_HAT = hat("witch_hat");
 
-
+    public final Item INVISIBLE_ITEM = genericItem("invinsible_item");
+    public final Item WARP_HOUSE = genericItem("warp_house");
     public final Item AEGIS_BADGE = genericItem("aegis_badge");
     public final Item APHID_BADGE = genericItem("aphid_badge");
     public final Item BLIGHT_BADGE = genericItem("blight_badge");
@@ -1532,6 +1552,7 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
 
     public final Item SCARECROW_4_BOTTOM = blockItem("scarecrow_4_bottom", SoulderBlocks.getInstance().SCARECROW_4_BOTTOM);
     public final Item SCARECROW_4_TOP = blockItem("scarecrow_4_top", SoulderBlocks.getInstance().SCARECROW_4_TOP);
+
 
     public static SoulderItems getInstance() {
         return INSTANCE;

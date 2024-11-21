@@ -1,8 +1,8 @@
 {
   "textures": [
-    "souldercontent:particle/shiny_sparkle",
-    "souldercontent:particle/shiny_star",
-    "souldercontent:particle/shine"
+    "souldercontent:shiny_sparkle",
+    "souldercontent:shiny_star",
+    "souldercontent:shine"
   ]
 }
 
