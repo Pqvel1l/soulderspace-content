@@ -1532,7 +1532,21 @@
   "item.souldercontent.adamantite_nugget": "Кусочек адамантита",
   "block.souldercontent.ancient_machine_frame": "Примитивная механическая рама",
   "block.souldercontent.future_machine_frame": "Нанотехнологичная механическая рама",
-  "item.souldercontent.adamantite_raw_ore_block": "Блок рудного адамантита",
-  "item.souldercontent.adamantite_lizard_scale": "Чешуя Змея Искусителя"
+  "item.souldercontent.lizard_scale": "Чешуя Змея Искусителя",
+  "block.souldercontent.adamantite_raw_ore_block": "Блок рудного адамантита",
+  "item.souldercontent.ancient_reality_stabilizer": "Примитивный стабилизатор реальности",
+  "item.souldercontent.apple_adam": "Яблоко Адама",
+  "item.souldercontent.apple_eden": "Яблоко Эдена",
+  "item.souldercontent.cursed_ingot": "Проклятый слиток",
+  "item.souldercontent.holy_ingot": "Святой слиток",
+  "item.souldercontent.hydrophobic_metal": "Гидрофобный слиток",
+  "item.souldercontent.original_sin": "Первородный грех",
+  "item.souldercontent.reality_stabilizer_of_the_future": "Нанотехнологичный стабилизатор реальности",
+  "item.souldercontent.rift_essence": "Эссенция разлома",
+  "item.souldercontent.unstable_rift_essence": "Нестабильная эссенция разлома",
+  "item.souldercontent.silkworm": "Шелкопряд",
+  "item.souldercontent.slag": "Шлак",
+  "item.souldercontent.worm": "Червь",
+  "item.souldercontent.origin_sin": "MISSED_ITEM_LANG"
 
 }

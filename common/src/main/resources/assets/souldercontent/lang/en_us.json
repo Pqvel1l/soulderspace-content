@@ -1545,5 +1545,20 @@
   "item.souldercontent.adamantite_nugget": "Adamantite Nugget",
   "block.souldercontent.ancient_machine_frame": "Ancient Machine Frame",
   "block.souldercontent.future_machine_frame": "Future Machine Frame",
-  "item.souldercontent.lizard_scale": "Scale"
+  "item.souldercontent.lizard_scale": "Lizard Scale",
+  "item.souldercontent.ancient_reality_stabilizer": "Ancient Reality Stabilizer",
+  "item.souldercontent.apple_adam": "Apple Adam",
+  "item.souldercontent.apple_eden": "Apple Eden",
+  "item.souldercontent.cursed_ingot": "Cursed Ingot",
+  "item.souldercontent.holy_ingot": "Holy Ingot",
+  "item.souldercontent.hydrophobic_metal": "Hydrophobic Ingot",
+  "item.souldercontent.original_sin": "Original Sin",
+  "item.souldercontent.reality_stabilizer_of_the_future": "Reality Stabilizer of the Future",
+  "item.souldercontent.rift_essence": "Rift Essence",
+  "item.souldercontent.unstable_rift_essence": "Unstable Rift Essence",
+  "item.souldercontent.silkworm": "Silk Worm",
+  "item.souldercontent.slag": "Slag",
+  "item.souldercontent.worm": "Worm",
+
+  "item.souldercontent.origin_sin": "Origin Sin"
 }

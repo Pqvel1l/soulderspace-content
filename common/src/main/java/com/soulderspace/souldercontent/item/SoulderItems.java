@@ -27,10 +27,24 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item GEAR_OF_THE_FUTURE = genericItem("gear_of_the_future");
     public final Item LIFE_AGGREGATOR_OF_THE_FUTURE = genericItem("life_aggregator_of_the_future");
     public final Item MICROCHIP_OF_THE_FUTURE = genericItem("microchip_of_the_future");
+    public final Item CURSED_INGOT = genericItem("cursed_ingot");
+    public final Item HOLY_INGOT = genericItem("holy_ingot");
+    public final Item RIFT_ESSENCE = genericItem("rift_essence");
+    public final Item UNSTABLE_RIFT_ESSENCE = genericItem("unstable_rift_essence");
+    public final Item APPLE_ADAM = genericItem("apple_adam");
+    public final Item APPLE_EDEN = genericItem("apple_eden");
+    public final Item WORM = genericItem("worm");
+//    public final Item SILKWORM_LARVA = genericItem("silkworm_larva");
+    public final Item SILKWORM = genericItem("silkworm");
+    public final Item SLAG = genericItem("slag");
+    public final Item ANCIENT_REALITY_STABILIZER = genericItem("ancient_reality_stabilizer");
+    public final Item HYDROPHOBIC_METAL = genericItem("hydrophobic_metal");
+    public final Item REALITY_STABILIZER_OF_THE_FUTURE = genericItem("reality_stabilizer_of_the_future");
 
     public final Item ADAMANTITE_ORE = blockItem("adamantite_ore", SoulderBlocks.getInstance().ADAMANTITE_ORE);
     public final Item ADAMANTITE_BLOCK = blockItem("adamantite_block", SoulderBlocks.getInstance().ADAMANTITE_BLOCK);
     public final Item ADAMANTITE_RAW_ORE = genericItem("adamantite_raw_ore");
+    public final Item ORIGINAL_SIN = genericItem("original_sin");
     public final Item ADAMANTITE_RAW_ORE_BLOCK = blockItem("adamantite_raw_ore_block", SoulderBlocks.getInstance().ADAMANTITE_RAW_ORE_BLOCK);
     public final Item ADAMANTITE_INGOT = genericItem("adamantite_ingot");
     public final Item ADAMANTITE_NUGGET = genericItem("adamantite_nugget");

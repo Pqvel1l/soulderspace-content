@@ -49,6 +49,33 @@ public class SoulderContentForge {
                                 .entries((displayContext, entries) -> {
                                     // Добавляем предметы по их ID
                                     Identifier[] itemIDs = new Identifier[] {
+                                            new Identifier(SoulderContent.ID, "ancient_bulb"),
+                                            new Identifier(SoulderContent.ID, "ancient_compressed_reality"),
+                                            new Identifier(SoulderContent.ID, "ancient_gear"),
+                                            new Identifier(SoulderContent.ID, "ancient_life_aggregator"),
+                                            new Identifier(SoulderContent.ID, "ancient_microchip"),
+                                            new Identifier(SoulderContent.ID, "bulb_of_the_future"),
+                                            new Identifier(SoulderContent.ID, "compressed_reality_of_the_future"),
+                                            new Identifier(SoulderContent.ID, "gear_of_the_future"),
+                                            new Identifier(SoulderContent.ID, "life_aggregator_of_the_future"),
+                                            new Identifier(SoulderContent.ID, "microchip_of_the_future"),
+                                            new Identifier(SoulderContent.ID, "adamantite_raw_ore"),
+                                            new Identifier(SoulderContent.ID, "adamantite_ingot"),
+                                            new Identifier(SoulderContent.ID, "adamantite_nugget"),
+                                            new Identifier(SoulderContent.ID, "lizard_scale"),
+                                            new Identifier(SoulderContent.ID, "ancient_reality_stabilizer"),
+                                            new Identifier(SoulderContent.ID, "apple_adam"),
+                                            new Identifier(SoulderContent.ID, "apple_eden"),
+                                            new Identifier(SoulderContent.ID, "cursed_ingot"),
+                                            new Identifier(SoulderContent.ID, "holy_ingot"),
+                                            new Identifier(SoulderContent.ID, "hydrophobic_metal"),
+                                            new Identifier(SoulderContent.ID, "original_sin"),
+                                            new Identifier(SoulderContent.ID, "reality_stabilizer_of_the_future"),
+                                            new Identifier(SoulderContent.ID, "rift_essence"),
+                                            new Identifier(SoulderContent.ID, "unstable_rift_essence"),
+                                            new Identifier(SoulderContent.ID, "silkworm"),
+                                            new Identifier(SoulderContent.ID, "slag"),
+                                            new Identifier(SoulderContent.ID, "worm"),
                                             new Identifier(SoulderContent.ID, "normal_key"),
                                             new Identifier(SoulderContent.ID, "medium_key"),
                                             new Identifier(SoulderContent.ID, "premium_key"),
@@ -129,21 +156,8 @@ public class SoulderContentForge {
                                             new Identifier(SoulderContent.ID, "pokehats/sylveonears"),
                                             new Identifier(SoulderContent.ID, "pokehats/umbreoncap"),
                                             new Identifier(SoulderContent.ID, "pokehats/victorhatnh"),
-                                            new Identifier(SoulderContent.ID, "pokehats/victorhat"),
-                                            new Identifier(SoulderContent.ID, "ancient_bulb"),
-                                            new Identifier(SoulderContent.ID, "ancient_compressed_reality"),
-                                            new Identifier(SoulderContent.ID, "ancient_gear"),
-                                            new Identifier(SoulderContent.ID, "ancient_life_aggregator"),
-                                            new Identifier(SoulderContent.ID, "ancient_microchip"),
-                                            new Identifier(SoulderContent.ID, "bulb_of_the_future"),
-                                            new Identifier(SoulderContent.ID, "compressed_reality_of_the_future"),
-                                            new Identifier(SoulderContent.ID, "gear_of_the_future"),
-                                            new Identifier(SoulderContent.ID, "life_aggregator_of_the_future"),
-                                            new Identifier(SoulderContent.ID, "microchip_of_the_future"),
-                                            new Identifier(SoulderContent.ID, "adamantite_raw_ore"),
-                                            new Identifier(SoulderContent.ID, "adamantite_ingot"),
-                                            new Identifier(SoulderContent.ID, "adamantite_nugget"),
-                                            new Identifier(SoulderContent.ID, "lizard_scale")
+                                            new Identifier(SoulderContent.ID, "pokehats/victorhat")
+
 
                                             // добавьте остальные ID по необходимости
                                     };

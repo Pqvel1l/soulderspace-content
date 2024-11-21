@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "minecraft:forest",
+  "biomes": "mining_dimension:mining",
   "_comment": "mining_dimension:mining",
   "features": "souldercontent:adamantite_ore",
   "step": "underground_ores"
