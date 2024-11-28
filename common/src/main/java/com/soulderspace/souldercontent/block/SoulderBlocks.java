@@ -41,6 +41,7 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
 
     public final Block ANCIENT_MACHINE_FRAME = fullCube("ancient_machine_frame");
     public final Block FUTURE_MACHINE_FRAME = fullCube("future_machine_frame");
+//    public final Block APIARY = fullCube("apiary");
 
 
     public final Block POKEDOLL_BIG_GIRATINA = pokedoll_BLOCK("pokedoll_big_giratina");

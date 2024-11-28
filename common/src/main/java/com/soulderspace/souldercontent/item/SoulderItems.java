@@ -4,6 +4,8 @@ import com.soulderspace.souldercontent.RegistryProvider;
 import com.soulderspace.souldercontent.block.SoulderBlocks;
 import com.soulderspace.souldercontent.item.custom.PokeHatItem;
 import net.minecraft.block.Block;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -30,9 +32,34 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item CURSED_INGOT = genericItem("cursed_ingot");
     public final Item HOLY_INGOT = genericItem("holy_ingot");
     public final Item RIFT_ESSENCE = genericItem("rift_essence");
-    public final Item UNSTABLE_RIFT_ESSENCE = genericItem("unstable_rift_essence");
-    public final Item APPLE_ADAM = genericItem("apple_adam");
-    public final Item APPLE_EDEN = genericItem("apple_eden");
+    public final Item UNSTABLE_RIFT_ESSENCE = genericItem("unstable_rift_essence"); //EDEN -> Спешка I 180    Адама -> Слепота I 180 Иссушение II 60
+    public final Item APPLE_ADAM = item("apple_adam",
+            new EnchantedGoldenAppleItem(new Item.Settings()
+                    .food(new FoodComponent.Builder()
+                            .hunger(4)
+                            .saturationModifier(0.4F)
+                            .statusEffect(
+                                    new StatusEffectInstance(
+                                            StatusEffects.BLINDNESS, 3600, 0),1F) //duration  тиках, 20 тиков = 1 секунда.
+                            .statusEffect(
+                                    new StatusEffectInstance(
+                                            StatusEffects.WITHER, 1200, 1),1F)
+                            .build()
+                    )
+            )
+    );
+
+    public final Item APPLE_EDEN = item("apple_eden",
+            new EnchantedGoldenAppleItem(new Item.Settings()
+                    .food(new FoodComponent.Builder()
+                            .hunger(6)
+                            .saturationModifier(0.8F)
+                            .statusEffect(
+                                    new StatusEffectInstance(
+                                            StatusEffects.HASTE, 3600, 0),1F)
+
+                            .build())));
+
     public final Item WORM = genericItem("worm");
 //    public final Item SILKWORM_LARVA = genericItem("silkworm_larva");
     public final Item SILKWORM = genericItem("silkworm");
@@ -50,6 +77,7 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item ADAMANTITE_NUGGET = genericItem("adamantite_nugget");
     public final Item ANCIENT_MACHINE_FRAME = blockItem("ancient_machine_frame", SoulderBlocks.getInstance().ANCIENT_MACHINE_FRAME);
     public final Item FUTURE_MACHINE_FRAME = blockItem("future_machine_frame", SoulderBlocks.getInstance().FUTURE_MACHINE_FRAME);
+//    public final Item APIARY = blockItem("apiary", SoulderBlocks.getInstance().APIARY);
     public final Item LIZARD_SCALE = genericItem("lizard_scale");
 
     public final Item ENVELOPE = genericItem("envelope");
