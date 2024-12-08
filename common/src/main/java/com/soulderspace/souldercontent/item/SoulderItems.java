@@ -79,6 +79,7 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item FUTURE_MACHINE_FRAME = blockItem("future_machine_frame", SoulderBlocks.getInstance().FUTURE_MACHINE_FRAME);
 //    public final Item APIARY = blockItem("apiary", SoulderBlocks.getInstance().APIARY);
     public final Item LIZARD_SCALE = genericItem("lizard_scale");
+    public final Item MENU = genericItem("menu");
 
     public final Item ENVELOPE = genericItem("envelope");
     public final Item SUSPICIOUS_CLOTH = genericItem("suspicious_cloth");

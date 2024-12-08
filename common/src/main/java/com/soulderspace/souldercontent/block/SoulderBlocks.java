@@ -595,48 +595,6 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     public final Block POKEDOLL_ZERAORA_GILDED = pokedoll_BLOCK("pokedoll_zeraora_gilded");
     public final Block POKEDOLL_ZIGZAGOON = pokedoll_BLOCK("pokedoll_zigzagoon");
 
-//    public final Block AUTUMN_LEAVES_CARPET = allTypesLeaves("autumn_leaves_carpet");
-//    public final Block SPIDERWEB_0 = skeletonBlock("spiderweb_0");
-//    public final Block SPIDERWEB_1 = skeletonBlock("spiderweb_1");
-//    public final Block SPIDERWEB_2 = skeletonBlock("spiderweb_2");
-//    public final Block SPIDERWEB_3 = skeletonBlock("spiderweb_3");
-//    public final Block SPIDERWEB_4 = skeletonBlock("spiderweb_4");
-
-/*    public final Block CARVED_EVIL_PUMPKIN = crateBlock("carved_evil_pumpkin",false);
-    public final Block CARVED_FRIENDLY_PUMPKIN = crateBlock("carved_friendly_pumpkin",false);
-    public final Block CARVED_SCREAMING_PUMPKIN = crateBlock("carved_screaming_pumpkin",false);
-    public final Block CARVED_SHOCKED_PUMPKIN = crateBlock("carved_shocked_pumpkin",false);
-    public final Block CARVED_SMILE_PUMPKIN = crateBlock("carved_smile_pumpkin",false);
-    public final Block FLAT_DIRT_GRAVESTONE = gravehorizontal("flat_dirt_gravestone");
-    public final Block FLAT_GRAVESTONE = gravehorizontal("flat_gravestone");
-    public final Block GRAVESTONE = gravevertical("gravestone");
-    public final Block SLANTED_GRAVESTONE = gravesmall("slanted_gravestone");
-    public final Block SQUARE_GRAVESTONE = gravevertical("square_gravestone");
-    public final Block SMALL_GRAVESTONE = gravesmall("small_gravestone");
-    public final Block HAY_WHEELBARROW = crateBlock("hay_wheelbarrow",true);
-    public final Block LAYING_HAY_BALE = crateBlock("laying_hay_bale",true);
-    public final Block PUMPKIN_WHEELBARROW = crateBlock("pumpkin_wheelbarrow",true);
-    public final Block LARGE_PUMPKIN = crateBlock("large_pumpkin",true);
-    public final Block SMALL_PUMPKIN = crateBlock("small_pumpkin",true);
-    public final Block MEDIUM_PUMPKIN = crateBlock("medium_pumpkin",true);
-    public final Block LIT_EVIL_PUMPKIN = pumpkinLight("lit_evil_pumpkin");
-    public final Block LIT_FRIENDLY_PUMPKIN = pumpkinLight("lit_friendly_pumpkin");
-    public final Block LIT_SCREAMING_PUMPKIN = pumpkinLight("lit_screaming_pumpkin");
-    public final Block LIT_SHOCKED_PUMPKIN = pumpkinLight("lit_shocked_pumpkin");
-    public final Block LIT_SMILE_PUMPKIN = pumpkinLight("lit_smile_pumpkin");
-    public final Block PAIR_OF_PUMPKINS = crateBlock("pair_of_pumpkins",true);
-    public final Block PUMPKIN_BALLOON = ballooned("pumpkin_balloon");
-    public final Block PUMPKIN_WALL_DECO_1 = walldecoBlock("pumpkin_wall_deco_1");
-    public final Block PUMPKIN_WALL_DECO_2 = walldecoBlock("pumpkin_wall_deco_2");
-    public final Block SCARECROW = scareCrow("scarecrow");
-    public final Block SITTING_SKELETON = skeletonBlock("sitting_skeleton");
-    public final Block SKELETON_BALLOON = ballooned("skeleton_balloon");
-    public final Block GHOST_BALLOON = ballooned("ghost_balloon");
-    public final Block GHOST = ballooned("ghost");
-    public final Block THREE_POTIONS = crateBlock("three_potions",true);
-    public final Block THREE_PUMPKINS = crateBlock("three_pumpkins",true);
-    public final Block WITCH_CAULDRON = crateBlock("witch_cauldron",false);*/
-
     public final Block ACACIA_BENCH = fullCube("acacia_bench");
     public final Block ACACIA_BRACED_PLANKS = fullCube("acacia_braced_planks");
     public final Block ACACIA_SUPPORTED_PLANKS = fullCube("acacia_supported_planks");
@@ -1458,7 +1416,6 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     private Block carpet(String name){return block(name, new CarpetLikeBlock());}
 
     private Block fullCube(String name){return block(name, new fullBlock());}
-    private Block ah(String name){return block(name, new Plushes(name));}
     private Block pokedoll_BLOCK(String name){return block(name, new Pokedoll());}
     private Block adamant(String name) {return block(name, new adamantite_ore());}
     private Block scareCrow(String name){return block(name, new ScarecroweBox());}
