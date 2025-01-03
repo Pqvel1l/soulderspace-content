@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "",
+  "key": {
+    "V": {
+      "item": "cobblemon:thunder_stone"
+    }
+  },
+  "pattern": [
+    "VVV",
+    "VVV",
+    "VVV"
+  ],
+  "result": {
+    "item": "souldercontent:cobblemon/thunder_stone_block"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "souldercontent:block/ice_stoneblock",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "souldercontent:block/ice_stoneblock"
+        },
+        "facing=south": {
+            "model": "souldercontent:block/ice_stoneblock",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "souldercontent:block/ice_stoneblock",
+            "y": 270
+        }
+    }
+}

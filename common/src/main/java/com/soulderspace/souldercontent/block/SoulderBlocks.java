@@ -1,8 +1,12 @@
 package com.soulderspace.souldercontent.block;
 
 import com.soulderspace.souldercontent.RegistryProvider;
+import com.soulderspace.souldercontent.SoulderContent;
 import com.soulderspace.souldercontent.block.custom.*;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -15,6 +19,40 @@ import java.util.Map;
 public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey<Registry<Block>>, Block> {
     private static final SoulderBlocks INSTANCE = new SoulderBlocks();
 
+
+    public final Block CASINO_ASHTRAY = carpet4px("casino/casino_ashtray");
+    public final Block CASINO_BACCARAT_MACHINE = twobox("casino/casino_baccarat_machine");
+    public final Block CASINO_BUFFALO_SLOT_MACHINE = threebox("casino/casino_buffalo_slot_machine");
+    public final Block CASINO_TABLE = casinotable("casino/casino_table");
+    public final Block CASINO_CHAIR_RED = chair("casino/casino_chair_red");
+    public final Block CASINO_CHAIR_YELLOW = chair("casino/casino_chair_yellow");
+    public final Block CASINO_CHIP_SET = carpet4px("casino/casino_chip_set");
+    public final Block CASINO_DOGGIE_CASH = twobox("casino/casino_doggie_cash");
+    public final Block CASINO_GAMBLING_GAME_MACHINE = threebox("casino/casino_gambling_game_machine");
+   // public final Block CASINO_LADY_LED_SIGN = fullCube("casino/casino_lady_led_sign");
+    public final Block CASINO_LED_SIGN = fullCube("casino/casino_led_sign");
+    public final Block CASINO_MADONNA_GAMBLING_MACHINE = fullCube("casino/casino_madonna_gambling_machine");
+    public final Block CASINO_POKER_SIGN = fullCube("casino/casino_poker_sign");
+    public final Block CASINO_RED_ARMREST_CHAIR = chair("casino/casino_red_armrest_chair");
+    public final Block CASINO_ROULETTE = carpet4px("casino/casino_roulette");
+    public final Block CASINO_STACK_CARD = carpet4px("casino/casino_stack_card");
+    public final Block CASINO_VENEZIA_SLOT = fullCube("casino/casino_venezia_slot");
+    public final Block CASINO_WHEEL_MACHINE = fullCube("casino/casino_wheel_machine");
+    //public final Block CASINO_WOMAN_PAINTING = fullCube("casino/casino_woman_painting");
+    public final Block CASINO_YELLOW_ARMREST_CHAIR = chair("casino/casino_yellow_armrest_chair");
+
+    public final Block WATER_STONE_BLOCK = stonelight5("cobblemon/water_stone_block");
+    public final Block DAWN_STONE_BLOCK = stonelight5("cobblemon/dawn_stone_block");
+    public final Block DUSK_STONE_BLOCK = stonelight5("cobblemon/dusk_stone_block");
+    public final Block ICE_STONE_BLOCK = stonelight5("cobblemon/ice_stone_block");
+    public final Block FIRE_STONE_BLOCK = stonelight5("cobblemon/fire_stone_block");
+    public final Block LEAF_STONE_BLOCK = stonelight5("cobblemon/leaf_stone_block");
+    public final Block MOON_STONE_BLOCK = stonelight5("cobblemon/moon_stone_block");
+    public final Block SUN_STONE_BLOCK = stonelight5("cobblemon/sun_stone_block");
+    public final Block THUNDER_STONE_BLOCK = stonelight5("cobblemon/thunder_stone_block");
+    public final Block SHINY_STONE_BLOCK = stonelight5("cobblemon/shiny_stone_block");
+
+
     public final Block NORMAL_CHEST = crateBlock("normal_chest", true);
     public final Block MEDIUM_CHEST = crateBlock("medium_chest", true);
     public final Block PREMIUM_CHEST = crateBlock("premium_chest", true);
@@ -25,6 +63,7 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     public final Block PINK_GREEN_CRATE = crateBlock("pink_green_crate", false);
     public final Block PURPLE_LIGHT_PURPLE_CRATE = crateBlock("purple_light_purple_crate", false);
     public final Block RED_GOLDEN_CRATE = crateBlock("red_golden_crate", false);
+
     public final Block ZOMBIEFIED_PIGLIN_PLUSHIE = pokedoll_BLOCK("zombified_piglin_plushie");
     public final Block POKEDOLL_ZUBAT = pokedoll_BLOCK("pokedoll_zubat");
     public final Block POKEDOLL_MEWTWO_GILDED = pokedoll_BLOCK("pokedoll_mewtwo_gilded");
@@ -950,7 +989,7 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     public final Block HOUSE_FLOOR_8 = fullCube("house_floor_8");
     public final Block ICE_BRICK = fullCube("ice_brick");
     public final Block ICE_PILLAR = fullCube("ice_pillar");
-    public final Block ICE_STONE_BLOCK = fullCube("ice_stone_block");
+    public final Block ICE_STONEBLOCK = fullCube("ice_stoneblock");
     public final Block INSIDE_WALL = fullCube("inside_wall");
     public final Block INSIDE_WALL_BOTTOM = fullCube("inside_wall_bottom");
     public final Block INSIDE_WALL_MIDDLE = fullCube("inside_wall_middle");
@@ -1219,7 +1258,7 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     public final Block SECURITY_FENCE = fullCube("security_fence");
     public final Block SHADOW_MACHINE = fullCube("shadow_machine");
     public final Block SHRINE_LAMP = fullCube("shrine_lamp");
-    public final Block SIGN_1 = fullCube("sign_1");
+//    public final Block SIGN_1 = fullCube("sign_1");
     public final Block SLATE_BRICKS = fullCube("slate_bricks");
     public final Block SLATE_BRICKS_LARGE = fullCube("slate_bricks_large");
     public final Block SLATE_CHISELED = fullCube("slate_chiseled");
@@ -1403,10 +1442,14 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     public final Block SCARECROW_3_BOTTOM = scareCrow("scarecrow_3_bottom");
     public final Block SCARECROW_4_TOP = scareCrow("scarecrow_4_top");
     public final Block SCARECROW_4_BOTTOM = scareCrow("scarecrow_4_bottom");
+
     public static SoulderBlocks getInstance() {
         return INSTANCE;
     }
-
+//    public static Block BLOCK_WATER_STONE = registerBlock("cobblemon_block_water_stone", new Block(AbstractBlock.Settings
+//           .create()
+//           .emissiveLighting(AbstractBlock.AbstractBlockState::hasEmissiveLighting)
+//           .luminance(value -> 5)));
     private SoulderBlocks() {}
 
     private Block crateBlock(String name, boolean small) {
@@ -1416,14 +1459,24 @@ public class SoulderBlocks extends RegistryProvider<Registry<Block>, RegistryKey
     private Block carpet(String name){return block(name, new CarpetLikeBlock());}
 
     private Block fullCube(String name){return block(name, new fullBlock());}
+    private Block casinotable(String name){return block(name, new CasinoTable());}
     private Block pokedoll_BLOCK(String name){return block(name, new Pokedoll());}
     private Block adamant(String name) {return block(name, new adamantite_ore());}
     private Block scareCrow(String name){return block(name, new ScarecroweBox());}
+    private Block chair(String name){return block(name, new ChairBlock());}
+    private Block twobox(String name){return block(name, new TwoBlockBox());}
+    private Block twoxtwobox(String name){return block(name, new TwoXTwoBlockBox());}
+ private Block stonelight5(String name){return block(name, new fullBlockwithLight5());}
+    private Block threebox(String name){return block(name, new ThreeBlockBox());}
+    private Block carpet4px(String name){return block(name, new MoreThanCarpet());}
     private Block skeletonBlock(String name){return block(name, new SkeletonsBox());}
     private Block block(String name, Block block) {
         return this.add(name, block);
     }
-
+ public static Block registerBlock(String name, Block block){
+     Registry.register(Registries.ITEM, new Identifier(SoulderContent.ID, name), new BlockItem(block, new Item.Settings()));
+     return Registry.register(Registries.BLOCK, new Identifier(SoulderContent.ID, name), block);
+ }
     @Override
     public Registry<Block> getRegistry() {
         return Registries.BLOCK;

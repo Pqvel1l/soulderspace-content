@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "",
+  "key": {
+    "V": {
+      "item": "cobblemon:sun_stone"
+    }
+  },
+  "pattern": [
+    "VVV",
+    "VVV",
+    "VVV"
+  ],
+  "result": {
+    "item": "souldercontent:cobblemon/sun_stone_block"
+  },
+  "show_notification": true
+}

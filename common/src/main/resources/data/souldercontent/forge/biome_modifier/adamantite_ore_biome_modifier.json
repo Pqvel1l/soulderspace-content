@@ -1,7 +1,12 @@
 {
   "type": "forge:add_features",
- "biomes": "minecraft:forest",
-  "_comment": "mining_dimension:mining",
+  "biomes": [
+    "mining_dimension:mining",
+    "minecraft:lush_caves",
+    "minecraft:deep_dark",
+    "minecraft:dripstone_caves"
+  ],
+  "_comment": "Добавление руды adamantite в несколько биомов",
   "features": "souldercontent:adamantite_ore",
   "step": "underground_ores"
 }

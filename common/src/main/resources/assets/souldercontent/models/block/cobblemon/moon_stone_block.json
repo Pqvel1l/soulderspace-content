@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "souldercontent:block/cobblemon/moon_stone_block"
+    },
+    "render_type": "solid"
+}

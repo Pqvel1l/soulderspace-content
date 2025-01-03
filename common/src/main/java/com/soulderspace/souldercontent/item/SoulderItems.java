@@ -11,13 +11,13 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
-import net.minecraft.util.Rarity;
+import org.apache.http.cookie.Cookie;
 
 public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<Registry<Item>>, Item> {
     private static final SoulderItems INSTANCE = new SoulderItems();
 
-    public final Item FALLEN_DEFENDER = item("fdefender_sword", new SwordItem(ToolMaterials.NETHERITE, 11, 1.6f, new Item.Settings().maxCount(1).maxDamage(16)));
-    public final Item WILT_SWORD = item("wilt_sword", new SwordItem(ToolMaterials.NETHERITE, 9, 1.2f, new Item.Settings().maxCount(1).maxDamage(31)));
+    //public final Item FALLEN_DEFENDER = item("fdefender_sword", new SwordItem(ToolMaterials.NETHERITE, 11, 1.6f, new Item.Settings().maxCount(1).maxDamage(16)));
+   // public final Item WILT_SWORD = item("wilt_sword", new SwordItem(ToolMaterials.NETHERITE, 9, 1.2f, new Item.Settings().maxCount(1).maxDamage(31)));
 
     public final Item ANCIENT_BULB = genericItem("ancient_bulb");
     public final Item ANCIENT_COMPRESSED_REALITY = genericItem("ancient_compressed_reality");
@@ -32,9 +32,13 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item CURSED_INGOT = genericItem("cursed_ingot");
     public final Item HOLY_INGOT = genericItem("holy_ingot");
     public final Item RIFT_ESSENCE = genericItem("rift_essence");
+    public final Item GTS_STRELKA = genericItem("gts_strelka");
+    public final Item GTS_KORZINA = genericItem("gts_korzina");
+    public final Item GTS_OTMENA = genericItem("gts_otmena");
     public final Item UNSTABLE_RIFT_ESSENCE = genericItem("unstable_rift_essence"); //EDEN -> Спешка I 180    Адама -> Слепота I 180 Иссушение II 60
     public final Item APPLE_ADAM = item("apple_adam",
             new EnchantedGoldenAppleItem(new Item.Settings()
+                    .requires()
                     .food(new FoodComponent.Builder()
                             .hunger(4)
                             .saturationModifier(0.4F)
@@ -60,9 +64,40 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
 
                             .build())));
 
-    public final Item WORM = genericItem("worm");
-//    public final Item SILKWORM_LARVA = genericItem("silkworm_larva");
-    public final Item SILKWORM = genericItem("silkworm");
+    public final Item SIMOLINA_DUST = genericItem("food/simolina_dust");
+    public final Item COOKED_SIMOLINA = item("food/cooked_simolina",
+            new EnchantedGoldenAppleItem(new Item.Settings()
+                    .food(new FoodComponent.Builder()
+                            .hunger(10)
+                            .saturationModifier(0.8F)
+                            .statusEffect(
+                                    new StatusEffectInstance(
+                                            StatusEffects.SPEED, 1200, 1),1F)
+
+                            .build()))
+
+    );
+    public final Item OAT_COOKIE = item("food/oat_cookie",
+            new Item(new Item.Settings()
+                    .maxCount(64)
+                    .food(new FoodComponent.Builder()
+                            .hunger(2)
+                            .saturationModifier(1F)
+                            .build()))
+
+    );
+    public final Item WATER_STONE_BLOCK = blockItem("cobblemon/water_stone_block", SoulderBlocks.getInstance().WATER_STONE_BLOCK);
+    public final Item DAWN_STONE_BLOCK = blockItem("cobblemon/dawn_stone_block", SoulderBlocks.getInstance().DAWN_STONE_BLOCK);
+    public final Item DUSK_STONE_BLOCK = blockItem("cobblemon/dusk_stone_block", SoulderBlocks.getInstance().DUSK_STONE_BLOCK);
+    public final Item ICE_STONE_BLOCK = blockItem("cobblemon/ice_stone_block", SoulderBlocks.getInstance().ICE_STONE_BLOCK);
+    public final Item FIRE_STONE_BLOCK = blockItem("cobblemon/fire_stone_block", SoulderBlocks.getInstance().FIRE_STONE_BLOCK);
+    public final Item SUN_STONE_BLOCK = blockItem("cobblemon/sun_stone_block", SoulderBlocks.getInstance().SUN_STONE_BLOCK);
+    public final Item MOON_STONE_BLOCK = blockItem("cobblemon/moon_stone_block", SoulderBlocks.getInstance().MOON_STONE_BLOCK);
+    public final Item SHINY_STONE_BLOCK = blockItem("cobblemon/shiny_stone_block", SoulderBlocks.getInstance().SHINY_STONE_BLOCK);
+    public final Item LEAF_STONE_BLOCK = blockItem("cobblemon/leaf_stone_block", SoulderBlocks.getInstance().LEAF_STONE_BLOCK);
+    public final Item THUNDER_STONE_BLOCK = blockItem("cobblemon/thunder_stone_block", SoulderBlocks.getInstance().THUNDER_STONE_BLOCK);
+
+
     public final Item SLAG = genericItem("slag");
     public final Item ANCIENT_REALITY_STABILIZER = genericItem("ancient_reality_stabilizer");
     public final Item HYDROPHOBIC_METAL = genericItem("hydrophobic_metal");
@@ -80,21 +115,46 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
 //    public final Item APIARY = blockItem("apiary", SoulderBlocks.getInstance().APIARY);
     public final Item LIZARD_SCALE = genericItem("lizard_scale");
     public final Item MENU = genericItem("menu");
+//
+//    public final Item ENVELOPE = genericItem("envelope");
+//    public final Item SUSPICIOUS_CLOTH = genericItem("suspicious_cloth");
+//    public final Item SUSPICIOUS_RUBBER = genericItem("suspicious_rubber");
+//    public final Item SUSPICIOUS_STRING = genericItem("suspicious_string");
+//    public final Item BULBA_COIN = genericItem("bulba_coin");
+//    public final Item G_COIN = genericItem("g.coin");
+//    public final Item C_COIN = genericItem("c.coin_1");
+//    public final Item COPPER_COINCABU = genericItem("copper_coincabu");
+//    public final Item DITTO_COIN = genericItem("ditto_coin");
+//    public final Item FULLMETAL_COINCABU = genericItem("fullmetal_coincabu");
+//    public final Item GOLDEN_COINCABU = genericItem("golden_coincabu");
+//    public final Item SHINY = genericItem("shiny");
+//    public final Item SUPERCOIN = genericItem("supercoin");
+//    public final Item TICKET = genericItem("ticket");
 
-    public final Item ENVELOPE = genericItem("envelope");
-    public final Item SUSPICIOUS_CLOTH = genericItem("suspicious_cloth");
-    public final Item SUSPICIOUS_RUBBER = genericItem("suspicious_rubber");
-    public final Item SUSPICIOUS_STRING = genericItem("suspicious_string");
-    public final Item BULBA_COIN = genericItem("bulba_coin");
-    public final Item G_COIN = genericItem("g.coin");
-    public final Item C_COIN = genericItem("c.coin_1");
-    public final Item COPPER_COINCABU = genericItem("copper_coincabu");
-    public final Item DITTO_COIN = genericItem("ditto_coin");
-    public final Item FULLMETAL_COINCABU = genericItem("fullmetal_coincabu");
-    public final Item GOLDEN_COINCABU = genericItem("golden_coincabu");
-    public final Item SHINY = genericItem("shiny");
-    public final Item SUPERCOIN = genericItem("supercoin");
-    public final Item TICKET = genericItem("ticket");
+
+
+
+    public final Item CASINO_ASHTRAY = blockItem("casino/casino_ashtray", SoulderBlocks.getInstance().CASINO_ASHTRAY);
+    public final Item CASINO_BACCARAT_MACHINE = blockItem("casino/casino_baccarat_machine", SoulderBlocks.getInstance().CASINO_BACCARAT_MACHINE);
+    public final Item CASINO_BUFFALO_SLOT_MACHINE = blockItem("casino/casino_buffalo_slot_machine", SoulderBlocks.getInstance().CASINO_BUFFALO_SLOT_MACHINE);
+    public final Item CASINO_TABLE = blockItem("casino/casino_table", SoulderBlocks.getInstance().CASINO_TABLE);
+    public final Item CASINO_CHAIR_RED = blockItem("casino/casino_chair_red", SoulderBlocks.getInstance().CASINO_CHAIR_RED);
+    public final Item CASINO_CHAIR_YELLOW = blockItem("casino/casino_chair_yellow", SoulderBlocks.getInstance().CASINO_CHAIR_YELLOW);
+    public final Item CASINO_CHIP_SET = blockItem("casino/casino_chip_set", SoulderBlocks.getInstance().CASINO_CHIP_SET);
+    public final Item CASINO_DOGGIE_CASH = blockItem("casino/casino_doggie_cash", SoulderBlocks.getInstance().CASINO_DOGGIE_CASH);
+    public final Item CASINO_GAMBLING_GAME_MACHINE = blockItem("casino/casino_gambling_game_machine", SoulderBlocks.getInstance().CASINO_GAMBLING_GAME_MACHINE);
+    //public final Item CASINO_LADY_LED_SIGN = blockItem("casino/casino_lady_led_sign", SoulderBlocks.getInstance().CASINO_LADY_LED_SIGN);
+    public final Item CASINO_LED_SIGN = blockItem("casino/casino_led_sign", SoulderBlocks.getInstance().CASINO_LED_SIGN);
+    public final Item CASINO_MADONNA_GAMBLING_MACHINE = blockItem("casino/casino_madonna_gambling_machine", SoulderBlocks.getInstance().CASINO_MADONNA_GAMBLING_MACHINE);
+    public final Item CASINO_POKER_SIGN = blockItem("casino/casino_poker_sign", SoulderBlocks.getInstance().CASINO_POKER_SIGN);
+    public final Item CASINO_RED_ARMREST_CHAIR = blockItem("casino/casino_red_armrest_chair", SoulderBlocks.getInstance().CASINO_RED_ARMREST_CHAIR);
+    public final Item CASINO_ROULETTE = blockItem("casino/casino_roulette", SoulderBlocks.getInstance().CASINO_ROULETTE);
+    public final Item CASINO_STACK_CARD = blockItem("casino/casino_stack_card", SoulderBlocks.getInstance().CASINO_STACK_CARD);
+    public final Item CASINO_VENEZIA_SLOT = blockItem("casino/casino_venezia_slot", SoulderBlocks.getInstance().CASINO_VENEZIA_SLOT);
+    public final Item CASINO_WHEEL_MACHINE = blockItem("casino/casino_wheel_machine", SoulderBlocks.getInstance().CASINO_WHEEL_MACHINE);
+    //public final Item CASINO_WOMAN_PAINTING = blockItem("casino/casino_woman_painting", SoulderBlocks.getInstance().CASINO_WOMAN_PAINTING);
+    public final Item CASINO_YELLOW_ARMREST_CHAIR = blockItem("casino/casino_yellow_armrest_chair", SoulderBlocks.getInstance().CASINO_YELLOW_ARMREST_CHAIR);
+
 
     public final Item BRENDAN_HAT = hat("brendanhat");
     public final Item CALEM_HAT = hat("calemhat");
@@ -137,38 +197,39 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item UMBREONCAP = hat("umbreoncap");
 //    public final Item WITCH_HAT = hat("witch_hat");
 
-    public final Item INVISIBLE_ITEM = genericItem("invinsible_item");
+public final Item INVISIBLE_ITEM = genericItem("invinsible_item");
     public final Item WARP_HOUSE = genericItem("warp_house");
-    public final Item AEGIS_BADGE = genericItem("aegis_badge");
-    public final Item APHID_BADGE = genericItem("aphid_badge");
-    public final Item BLIGHT_BADGE = genericItem("blight_badge");
-    public final Item CREST_BADGE = genericItem("crest_badge");
-    public final Item DEWDROP_BADGE = genericItem("dewdrop_badge");
-    public final Item DUSK_BADGE = genericItem("dusk_badge");
-    public final Item ESPER_BADGE = genericItem("esper_badge");
-    public final Item FABLE_BADGE = genericItem("fable_badge");
-    public final Item GARDEN_BADGE = genericItem("garden_badge");
-    public final Item GLACIER_BADGE = genericItem("glacier_badge");
-    public final Item HARMONY_BADGE = genericItem("harmony_badge");
-    public final Item INFERNO_BADGE = genericItem("inferno_badge");
-    public final Item MASTER_BADGE = genericItem("master_badge");
-    public final Item MELEE_BADGE = genericItem("melee_badge");
-    public final Item MYTHOS_BADGE = genericItem("mythos_badge");
-    public final Item PHANTOM_BADGE = genericItem("phantom_badge");
-    public final Item QUARRY_BADGE = genericItem("quarry_badge");
-    public final Item SAND_BADGE = genericItem("sand_badge");
-    public final Item TESLA_BADGE = genericItem("tesla_badge");
 
-    public final Item NORMAL_KEY = genericItem("normal_key");
-    public final Item MEDIUM_KEY = genericItem("medium_key");
-    public final Item PREMIUM_KEY = genericItem("premium_key");
-    public final Item HALLOWEEN_KEY = genericItem("halloween_key");
-    public final Item BLACK_SILVER_KEY = genericItem("black_silver_key");
-    public final Item BLUE_LIGHT_BLUE_KEY = genericItem("blue_light_blue_key");
-    public final Item BROWN_SILVER_KEY = genericItem("brown_silver_key");
-    public final Item PINK_GREEN_KEY = genericItem("pink_green_key");
-    public final Item PURPLE_LIGHT_PURPLE_KEY = genericItem("purple_light_purple_key");
-    public final Item RED_GOLDEN_KEY = genericItem("red_golden_key");
+//    public final Item AEGIS_BADGE = genericItem("aegis_badge");
+//    public final Item APHID_BADGE = genericItem("aphid_badge");
+//    public final Item BLIGHT_BADGE = genericItem("blight_badge");
+//    public final Item CREST_BADGE = genericItem("crest_badge");
+//    public final Item DEWDROP_BADGE = genericItem("dewdrop_badge");
+//    public final Item DUSK_BADGE = genericItem("dusk_badge");
+//    public final Item ESPER_BADGE = genericItem("esper_badge");
+//    public final Item FABLE_BADGE = genericItem("fable_badge");
+//    public final Item GARDEN_BADGE = genericItem("garden_badge");
+//    public final Item GLACIER_BADGE = genericItem("glacier_badge");
+//    public final Item HARMONY_BADGE = genericItem("harmony_badge");
+//    public final Item INFERNO_BADGE = genericItem("inferno_badge");
+//    public final Item MASTER_BADGE = genericItem("master_badge");
+//    public final Item MELEE_BADGE = genericItem("melee_badge");
+//    public final Item MYTHOS_BADGE = genericItem("mythos_badge");
+//    public final Item PHANTOM_BADGE = genericItem("phantom_badge");
+//    public final Item QUARRY_BADGE = genericItem("quarry_badge");
+//    public final Item SAND_BADGE = genericItem("sand_badge");
+//    public final Item TESLA_BADGE = genericItem("tesla_badge");
+
+//    public final Item NORMAL_KEY = genericItem("normal_key");
+//    public final Item MEDIUM_KEY = genericItem("medium_key");
+//    public final Item PREMIUM_KEY = genericItem("premium_key");
+//    public final Item HALLOWEEN_KEY = genericItem("halloween_key");
+//    public final Item BLACK_SILVER_KEY = genericItem("black_silver_key");
+//    public final Item BLUE_LIGHT_BLUE_KEY = genericItem("blue_light_blue_key");
+//    public final Item BROWN_SILVER_KEY = genericItem("brown_silver_key");
+//    public final Item PINK_GREEN_KEY = genericItem("pink_green_key");
+//    public final Item PURPLE_LIGHT_PURPLE_KEY = genericItem("purple_light_purple_key");
+//    public final Item RED_GOLDEN_KEY = genericItem("red_golden_key");
 
     public final Item NORMAL_CHEST = blockItem("normal_chest", SoulderBlocks.getInstance().NORMAL_CHEST);
     public final Item MEDIUM_CHEST = blockItem("medium_chest", SoulderBlocks.getInstance().MEDIUM_CHEST);
@@ -744,41 +805,7 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
 
     public final Item MAGMA_DEEPSLATE = blockItem("magma_deepslate", SoulderBlocks.getInstance().MAGMA_DEEPSLATE);
 
-    /*public final Item CARVED_EVIL_PUMPKIN = blockItem("carved_evil_pumpkin", SoulderBlocks.getInstance().CARVED_EVIL_PUMPKIN);
-    public final Item CARVED_FRIENDLY_PUMPKIN = blockItem("carved_friendly_pumpkin", SoulderBlocks.getInstance().CARVED_FRIENDLY_PUMPKIN);
-    public final Item CARVED_SCREAMING_PUMPKIN = blockItem("carved_screaming_pumpkin", SoulderBlocks.getInstance().CARVED_SCREAMING_PUMPKIN);
-    public final Item CARVED_SHOCKED_PUMPKIN = blockItem("carved_shocked_pumpkin", SoulderBlocks.getInstance().CARVED_SHOCKED_PUMPKIN);
-    public final Item CARVED_SMILE_PUMPKIN = blockItem("carved_smile_pumpkin", SoulderBlocks.getInstance().CARVED_SMILE_PUMPKIN);
-    public final Item FLAT_DIRT_GRAVESTONE = blockItem("flat_dirt_gravestone", SoulderBlocks.getInstance().FLAT_DIRT_GRAVESTONE);
-    public final Item FLAT_GRAVESTONE = blockItem("flat_gravestone", SoulderBlocks.getInstance().FLAT_GRAVESTONE);
-    public final Item GRAVESTONE = blockItem("gravestone", SoulderBlocks.getInstance().GRAVESTONE);
-    public final Item SLANTED_GRAVESTONE = blockItem("slanted_gravestone", SoulderBlocks.getInstance().SLANTED_GRAVESTONE);
-    public final Item SQUARE_GRAVESTONE = blockItem("square_gravestone", SoulderBlocks.getInstance().SQUARE_GRAVESTONE);
-    public final Item SMALL_GRAVESTONE = blockItem("small_gravestone", SoulderBlocks.getInstance().SMALL_GRAVESTONE);
-    public final Item HAY_WHEELBARROW = blockItem("hay_wheelbarrow", SoulderBlocks.getInstance().HAY_WHEELBARROW);
-    public final Item LAYING_HAY_BALE = blockItem("laying_hay_bale", SoulderBlocks.getInstance().LAYING_HAY_BALE);
-    public final Item PUMPKIN_WHEELBARROW = blockItem("pumpkin_wheelbarrow", SoulderBlocks.getInstance().PUMPKIN_WHEELBARROW);
-    public final Item LARGE_PUMPKIN = blockItem("large_pumpkin", SoulderBlocks.getInstance().LARGE_PUMPKIN);
-    public final Item SMALL_PUMPKIN = blockItem("small_pumpkin", SoulderBlocks.getInstance().SMALL_PUMPKIN);
-    public final Item MEDIUM_PUMPKIN = blockItem("medium_pumpkin", SoulderBlocks.getInstance().MEDIUM_PUMPKIN);
-    public final Item LIT_EVIL_PUMPKIN = blockItem("lit_evil_pumpkin", SoulderBlocks.getInstance().LIT_EVIL_PUMPKIN);
-    public final Item LIT_FRIENDLY_PUMPKIN = blockItem("lit_friendly_pumpkin", SoulderBlocks.getInstance().LIT_FRIENDLY_PUMPKIN);
-    public final Item LIT_SCREAMING_PUMPKIN = blockItem("lit_screaming_pumpkin", SoulderBlocks.getInstance().LIT_SCREAMING_PUMPKIN);
-    public final Item LIT_SHOCKED_PUMPKIN = blockItem("lit_shocked_pumpkin", SoulderBlocks.getInstance().LIT_SHOCKED_PUMPKIN);
-    public final Item LIT_SMILE_PUMPKIN = blockItem("lit_smile_pumpkin", SoulderBlocks.getInstance().LIT_SMILE_PUMPKIN);
-    public final Item PAIR_OF_PUMPKINS = blockItem("pair_of_pumpkins", SoulderBlocks.getInstance().PAIR_OF_PUMPKINS);
-    public final Item PUMPKIN_BALLOON = blockItem("pumpkin_balloon", SoulderBlocks.getInstance().PUMPKIN_BALLOON);
-    public final Item PUMPKIN_WALL_DECO_1 = blockItem("pumpkin_wall_deco_1", SoulderBlocks.getInstance().PUMPKIN_WALL_DECO_1);
-    public final Item PUMPKIN_WALL_DECO_2 = blockItem("pumpkin_wall_deco_2", SoulderBlocks.getInstance().PUMPKIN_WALL_DECO_2);
-    public final Item SCARECROW = blockItem("scarecrow", SoulderBlocks.getInstance().SCARECROW);
-    public final Item SITTING_SKELETON = blockItem("sitting_skeleton", SoulderBlocks.getInstance().SITTING_SKELETON);
-    public final Item SKELETON_BALLOON = blockItem("skeleton_balloon", SoulderBlocks.getInstance().SKELETON_BALLOON);
-    public final Item THREE_POTIONS = blockItem("three_potions", SoulderBlocks.getInstance().THREE_POTIONS);
-    public final Item THREE_PUMPKINS = blockItem("three_pumpkins", SoulderBlocks.getInstance().THREE_PUMPKINS);
-    public final Item GHOST_BALLOON = blockItem("ghost_balloon", SoulderBlocks.getInstance().GHOST_BALLOON);
-    public final Item GHOST = blockItem("ghost", SoulderBlocks.getInstance().GHOST);
-    public final Item WITCH_CAULDRON = blockItem("witch_cauldron", SoulderBlocks.getInstance().WITCH_CAULDRON);
-*//* public final Item AUTUMN_LEAVES_CARPET_0 = blockItem("autumn_leaves_carpet_0", SoulderBlocks.getInstance().AUTUMN_LEAVES_CARPET);*/
+
     public final Item ACACIA_BENCH = blockItem("acacia_bench", SoulderBlocks.getInstance().ACACIA_BENCH);
     public final Item ACACIA_BRACED_PLANKS = blockItem("acacia_braced_planks", SoulderBlocks.getInstance().ACACIA_BRACED_PLANKS);
     public final Item ACACIA_SUPPORTED_PLANKS = blockItem("acacia_supported_planks", SoulderBlocks.getInstance().ACACIA_SUPPORTED_PLANKS);
@@ -1133,7 +1160,7 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item HOUSE_FLOOR_8 = blockItem("house_floor_8", SoulderBlocks.getInstance().HOUSE_FLOOR_8);
     public final Item ICE_BRICK = blockItem("ice_brick", SoulderBlocks.getInstance().ICE_BRICK);
     public final Item ICE_PILLAR = blockItem("ice_pillar", SoulderBlocks.getInstance().ICE_PILLAR);
-    public final Item ICE_STONE_BLOCK = blockItem("ice_stone_block", SoulderBlocks.getInstance().ICE_STONE_BLOCK);
+    public final Item ICE_STONEBLOCK = blockItem("ice_stoneblock", SoulderBlocks.getInstance().ICE_STONEBLOCK);
     public final Item INSIDE_WALL = blockItem("inside_wall", SoulderBlocks.getInstance().INSIDE_WALL);
     public final Item INSIDE_WALL_BOTTOM = blockItem("inside_wall_bottom", SoulderBlocks.getInstance().INSIDE_WALL_BOTTOM);
     public final Item INSIDE_WALL_MIDDLE = blockItem("inside_wall_middle", SoulderBlocks.getInstance().INSIDE_WALL_MIDDLE);
@@ -1402,7 +1429,7 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item SECURITY_FENCE = blockItem("security_fence", SoulderBlocks.getInstance().SECURITY_FENCE);
     public final Item SHADOW_MACHINE = blockItem("shadow_machine", SoulderBlocks.getInstance().SHADOW_MACHINE);
     public final Item SHRINE_LAMP = blockItem("shrine_lamp", SoulderBlocks.getInstance().SHRINE_LAMP);
-    public final Item SIGN_1 = blockItem("sign_1", SoulderBlocks.getInstance().SIGN_1);
+//    public final Item SIGN_1 = blockItem("sign_1", SoulderBlocks.getInstance().SIGN_1);
     public final Item SLATE_BRICKS = blockItem("slate_bricks", SoulderBlocks.getInstance().SLATE_BRICKS);
     public final Item SLATE_BRICKS_LARGE = blockItem("slate_bricks_large", SoulderBlocks.getInstance().SLATE_BRICKS_LARGE);
     public final Item SLATE_CHISELED = blockItem("slate_chiseled", SoulderBlocks.getInstance().SLATE_CHISELED);
@@ -1569,11 +1596,6 @@ public class SoulderItems extends RegistryProvider<Registry<Item>, RegistryKey<R
     public final Item SOILDER_DOLL_WOMAN = blockItem("soilder_doll_woman", SoulderBlocks.getInstance().SOILDER_DOLL_WOMAN);
     public final Item WALL_CALENDER = blockItem("wall_calender", SoulderBlocks.getInstance().WALL_CALENDER);
 
-/*    public final Item SPIDERWEB_0 = blockItem("spiderweb_0", SoulderBlocks.getInstance().SPIDERWEB_0);
-    public final Item SPIDERWEB_1 = blockItem("spiderweb_1", SoulderBlocks.getInstance().SPIDERWEB_1);
-    public final Item SPIDERWEB_2 = blockItem("spiderweb_2", SoulderBlocks.getInstance().SPIDERWEB_2);
-    public final Item SPIDERWEB_3 = blockItem("spiderweb_3", SoulderBlocks.getInstance().SPIDERWEB_3);
-    public final Item SPIDERWEB_4 = blockItem("spiderweb_4", SoulderBlocks.getInstance().SPIDERWEB_4);*/
 
     public final Item SKELETON_0 = blockItem("skeleton_0", SoulderBlocks.getInstance().SKELETON_0);
     public final Item SKELETON_1 = blockItem("skeleton_1", SoulderBlocks.getInstance().SKELETON_1);

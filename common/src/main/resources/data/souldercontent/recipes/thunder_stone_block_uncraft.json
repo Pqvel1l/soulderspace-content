@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "",
+  "ingredients": [
+    {
+      "item": "souldercontent:cobblemon/thunder_stone_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cobblemon:thunder_stone"
+  }
+}

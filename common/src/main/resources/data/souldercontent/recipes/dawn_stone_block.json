@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "",
+  "key": {
+    "V": {
+      "item": "cobblemon:dawn_stone"
+    }
+  },
+  "pattern": [
+    "VVV",
+    "VVV",
+    "VVV"
+  ],
+  "result": {
+    "item": "souldercontent:cobblemon/dawn_stone_block"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "souldercobblemon",
+  "key": {
+    "#": {
+      "item": "cobblemon:dusk_stone"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "souldercontent:cobblemon/dusk_stone_block"
+  },
+  "show_notification": true
+}

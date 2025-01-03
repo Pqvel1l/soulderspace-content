@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "",
+  "ingredients": [
+    {
+      "item": "souldercontent:cobblemon/fire_stone_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "cobblemon:fire_stone"
+  }
+}

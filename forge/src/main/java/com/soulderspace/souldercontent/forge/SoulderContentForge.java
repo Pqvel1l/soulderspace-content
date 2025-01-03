@@ -23,6 +23,7 @@ public class SoulderContentForge {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::registerBlocks);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::registerItems);
         SoulderContent.init();
+
     }
 
     @SubscribeEvent
@@ -35,7 +36,7 @@ public class SoulderContentForge {
                 Registries.ITEM_GROUP.getKey(), helper -> helper.register(new Identifier(SoulderContent.ID, "soulder_content"),
                         ItemGroup.builder()
                                 .displayName(Text.translatable("itemGroup.souldercontent"))
-                                .icon(items.ENVELOPE::getDefaultStack)  // Иконка для первой вкладки
+                                .icon(items.GEAR_OF_THE_FUTURE::getDefaultStack)  // Иконка для первой вкладки
                                 .entries((displayContext, entries) -> items.all().forEach(item -> entries.add(item.getDefaultStack())))
                                 .build())
         );
@@ -45,7 +46,7 @@ public class SoulderContentForge {
                 Registries.ITEM_GROUP.getKey(), helper -> helper.register(new Identifier(SoulderContent.ID, "soulder_content_items"),
                         ItemGroup.builder()
                                 .displayName(Text.translatable("itemGroup.souldercontent.items"))  // Название новой вкладки
-                                .icon(items.DITTO_COIN::getDefaultStack)  // Иконка
+                                .icon(items.ANCIENT_BULB::getDefaultStack)  // Иконка
                                 .entries((displayContext, entries) -> {
                                     // Добавляем предметы по их ID
                                     Identifier[] itemIDs = new Identifier[] {
@@ -73,53 +74,53 @@ public class SoulderContentForge {
                                             new Identifier(SoulderContent.ID, "reality_stabilizer_of_the_future"),
                                             new Identifier(SoulderContent.ID, "rift_essence"),
                                             new Identifier(SoulderContent.ID, "unstable_rift_essence"),
-                                            new Identifier(SoulderContent.ID, "silkworm"),
+                                        //    new Identifier(SoulderContent.ID, "silkworm"),
                                             new Identifier(SoulderContent.ID, "slag"),
-                                            new Identifier(SoulderContent.ID, "worm"),
-                                            new Identifier(SoulderContent.ID, "normal_key"),
-                                            new Identifier(SoulderContent.ID, "medium_key"),
-                                            new Identifier(SoulderContent.ID, "premium_key"),
-                                            new Identifier(SoulderContent.ID, "halloween_key"),
-                                            new Identifier(SoulderContent.ID, "black_silver_key"),
-                                            new Identifier(SoulderContent.ID, "blue_light_blue_key"),
-                                            new Identifier(SoulderContent.ID, "brown_silver_key"),
-                                            new Identifier(SoulderContent.ID, "pink_green_key"),
-                                            new Identifier(SoulderContent.ID, "purple_light_purple_key"),
-                                            new Identifier(SoulderContent.ID, "red_golden_key"),
-                                            new Identifier(SoulderContent.ID, "aegis_badge"),
-                                            new Identifier(SoulderContent.ID, "aphid_badge"),
-                                            new Identifier(SoulderContent.ID, "blight_badge"),
-                                            new Identifier(SoulderContent.ID, "crest_badge"),
-                                            new Identifier(SoulderContent.ID, "dewdrop_badge"),
-                                            new Identifier(SoulderContent.ID, "esper_badge"),
-                                            new Identifier(SoulderContent.ID, "fable_badge"),
-                                            new Identifier(SoulderContent.ID, "garden_badge"),
-                                            new Identifier(SoulderContent.ID, "glacier_badge"),
-                                            new Identifier(SoulderContent.ID, "harmony_badge"),
-                                            new Identifier(SoulderContent.ID, "inferno_badge"),
-                                            new Identifier(SoulderContent.ID, "master_badge"),
-                                            new Identifier(SoulderContent.ID, "melee_badge"),
-                                            new Identifier(SoulderContent.ID, "mythos_badge"),
-                                            new Identifier(SoulderContent.ID, "phantom_badge"),
-                                            new Identifier(SoulderContent.ID, "quarry_badge"),
-                                            new Identifier(SoulderContent.ID, "sand_badge"),
-                                            new Identifier(SoulderContent.ID, "tesla_badge"),
-                                            new Identifier(SoulderContent.ID, "suspicious_rubber"),
-                                            new Identifier(SoulderContent.ID, "suspicious_cloth"),
-                                            new Identifier(SoulderContent.ID, "suspicious_string"),
-                                            new Identifier(SoulderContent.ID, "envelope"),
-                                            new Identifier(SoulderContent.ID, "bulba_coin"),
-                                            new Identifier(SoulderContent.ID, "g.coin"),
-                                            new Identifier(SoulderContent.ID, "c.coin_1"),
-                                            new Identifier(SoulderContent.ID, "supercoin"),
-                                            new Identifier(SoulderContent.ID, "shiny"),
-                                            new Identifier(SoulderContent.ID, "copper_coincabu"),
-                                            new Identifier(SoulderContent.ID, "fullmetal_coincabu"),
-                                            new Identifier(SoulderContent.ID, "golden_coincabu"),
-                                            new Identifier(SoulderContent.ID, "ditto_coin"),
-                                            new Identifier(SoulderContent.ID, "ticket"),
-                                            new Identifier(SoulderContent.ID, "fdefender_sword"),
-                                            new Identifier(SoulderContent.ID, "wilt_sword"),
+//                                            new Identifier(SoulderContent.ID, "worm"),
+//                                            new Identifier(SoulderContent.ID, "normal_key"),
+//                                            new Identifier(SoulderContent.ID, "medium_key"),
+//                                            new Identifier(SoulderContent.ID, "premium_key"),
+//                                            new Identifier(SoulderContent.ID, "halloween_key"),
+//                                            new Identifier(SoulderContent.ID, "black_silver_key"),
+//                                            new Identifier(SoulderContent.ID, "blue_light_blue_key"),
+//                                            new Identifier(SoulderContent.ID, "brown_silver_key"),
+//                                            new Identifier(SoulderContent.ID, "pink_green_key"),
+//                                            new Identifier(SoulderContent.ID, "purple_light_purple_key"),
+//                                            new Identifier(SoulderContent.ID, "red_golden_key"),
+//                                            new Identifier(SoulderContent.ID, "aegis_badge"),
+//                                            new Identifier(SoulderContent.ID, "aphid_badge"),
+//                                            new Identifier(SoulderContent.ID, "blight_badge"),
+//                                            new Identifier(SoulderContent.ID, "crest_badge"),
+//                                            new Identifier(SoulderContent.ID, "dewdrop_badge"),
+//                                            new Identifier(SoulderContent.ID, "esper_badge"),
+//                                            new Identifier(SoulderContent.ID, "fable_badge"),
+//                                            new Identifier(SoulderContent.ID, "garden_badge"),
+//                                            new Identifier(SoulderContent.ID, "glacier_badge"),
+//                                            new Identifier(SoulderContent.ID, "harmony_badge"),
+//                                            new Identifier(SoulderContent.ID, "inferno_badge"),
+//                                            new Identifier(SoulderContent.ID, "master_badge"),
+//                                            new Identifier(SoulderContent.ID, "melee_badge"),
+//                                            new Identifier(SoulderContent.ID, "mythos_badge"),
+//                                            new Identifier(SoulderContent.ID, "phantom_badge"),
+//                                            new Identifier(SoulderContent.ID, "quarry_badge"),
+//                                            new Identifier(SoulderContent.ID, "sand_badge"),
+//                                            new Identifier(SoulderContent.ID, "tesla_badge"),
+//                                            new Identifier(SoulderContent.ID, "suspicious_rubber"),
+//                                            new Identifier(SoulderContent.ID, "suspicious_cloth"),
+//                                            new Identifier(SoulderContent.ID, "suspicious_string"),
+//                                            new Identifier(SoulderContent.ID, "envelope"),
+//                                            new Identifier(SoulderContent.ID, "bulba_coin"),
+//                                            new Identifier(SoulderContent.ID, "g.coin"),
+//                                            new Identifier(SoulderContent.ID, "c.coin_1"),
+//                                            new Identifier(SoulderContent.ID, "supercoin"),
+//                                            new Identifier(SoulderContent.ID, "shiny"),
+//                                            new Identifier(SoulderContent.ID, "copper_coincabu"),
+//                                            new Identifier(SoulderContent.ID, "fullmetal_coincabu"),
+//                                            new Identifier(SoulderContent.ID, "golden_coincabu"),
+//                                            new Identifier(SoulderContent.ID, "ditto_coin"),
+//                                            new Identifier(SoulderContent.ID, "ticket"),
+//                                            new Identifier(SoulderContent.ID, "fdefender_sword"),
+//                                            new Identifier(SoulderContent.ID, "wilt_sword"),
                                             new Identifier(SoulderContent.ID, "pokehats/brendanhat"),
                                             new Identifier(SoulderContent.ID, "pokehats/calemhat"),
                                             new Identifier(SoulderContent.ID, "pokehats/calemhatnh"),
@@ -168,7 +169,7 @@ public class SoulderContentForge {
                                         // Проверяем, что предмет существует, прежде чем добавлять его
                                         if (item != null) {
                                             entries.add(item.getDefaultStack());
-//                                            LOGGER.warn("Предмет с ID " + itemID + " не найден в реестре.");
+                                          //  LOGGER.warn("Предмет с ID " + itemID + " не найден в реестре.");
                                         }
                                     }
                                 })
@@ -247,7 +248,7 @@ public class SoulderContentForge {
                                         if (item != null) {
                                             entries.add(item.getDefaultStack());
 
-//                                            LOGGER.warn("Предмет с ID " + itemID + " не найден в реестре.");
+                                     //       LOGGER.warn("Предмет с ID " + itemID + " не найден в реестре.");
                                         }
                                     }
                                 })
@@ -826,7 +827,7 @@ public class SoulderContentForge {
                                         // Проверяем, что предмет существует, прежде чем добавлять его
                                         if (item != null) {
                                             entries.add(item.getDefaultStack());
-//                                            LOGGER.warn("Предмет с ID " + itemID + " не найден в реестре.");
+                                          //  LOGGER.warn("Предмет с ID " + itemID + " не найден в реестре.");
                                         }
                                     }
                                 })
@@ -1195,7 +1196,7 @@ public class SoulderContentForge {
                                             new Identifier(SoulderContent.ID, "house_floor_8"),
                                             new Identifier(SoulderContent.ID, "ice_brick"),
                                             new Identifier(SoulderContent.ID, "ice_pillar"),
-                                            new Identifier(SoulderContent.ID, "ice_stone_block"),
+                                            new Identifier(SoulderContent.ID, "ice_stoneblock"),
                                             new Identifier(SoulderContent.ID, "inside_wall"),
                                             new Identifier(SoulderContent.ID, "inside_wall_bottom"),
                                             new Identifier(SoulderContent.ID, "inside_wall_middle"),
@@ -1465,7 +1466,7 @@ public class SoulderContentForge {
                                             new Identifier(SoulderContent.ID, "security_fence"),
                                             new Identifier(SoulderContent.ID, "shadow_machine"),
                                             new Identifier(SoulderContent.ID, "shrine_lamp"),
-                                            new Identifier(SoulderContent.ID, "sign_1"),
+                                            //new Identifier(SoulderContent.ID, "sign_1"),
                                             new Identifier(SoulderContent.ID, "slate_bricks"),
                                             new Identifier(SoulderContent.ID, "slate_bricks_large"),
                                             new Identifier(SoulderContent.ID, "slate_chiseled"),
@@ -1620,7 +1621,7 @@ public class SoulderContentForge {
                                         // Проверяем, что предмет существует, прежде чем добавлять его
                                         if (item != null) {
                                             entries.add(item.getDefaultStack());
-//                                            LOGGER.warn("Предмет с ID " + itemID + " не найден в реестре.");
+                                       //     LOGGER.warn("Предмет с ID " + itemID + " не найден в реестре.");
                                         }
                                     }
                                 })

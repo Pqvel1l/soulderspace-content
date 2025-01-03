@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:block/cube_all",
-    "textures": {
-        "all": "souldercontent:block/ice_stone_block"
-    },
-    "render_type": "minecraft:cutout"
-}
